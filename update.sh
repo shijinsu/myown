@@ -1,8 +1,8 @@
-cd /d d:\github
-pause
+cd  d:\github
+read -p "Press any key to continue."
 git add .
-pause
+read -p "Press any key to continue."
 git commit -m "update 20230303"
-pause
+read -p "Press any key to continue."
 git push origin master
-pause
+read -p "Press any key to continue."
