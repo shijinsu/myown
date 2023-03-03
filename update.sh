@@ -1,7 +1,7 @@
 git init
 git remote -v
 cd  d:\github\
-cp d:\gitsource\clash.yaml  c1
+cp d:\gitsource\clash.yaml  d:\github\ c1
 cp  ~.\sjs\clashAI.yaml csmart.c
 cp \sjs\v2ray.txt v
 cp \sjs\v2rayAI.txt \vsmart
