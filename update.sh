@@ -1,4 +1,5 @@
 git init
+git remote -v
 cd  d:\github
 git add .
 git commit -m "update 20230303"
