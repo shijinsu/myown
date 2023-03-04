@@ -1,11 +1,13 @@
 git init
 git remote -v
+
 cd  d:\github
+git pull origin master
 cp clash.yaml c.txt
 cp clashAI.yaml cAI.txt
 cp v2ray.txt v.txt
 cp v2rayAI.txt vAI.txt
-git pull origin master
+
 git add .
 
 git commit -m "updata"
