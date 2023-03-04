@@ -1,0 +1,8 @@
+clash.yaml:
+https://raw.githubusercontent.com/shijinsu/myown/master/c.txt
+clashAI.yaml:
+https://raw.githubusercontent.com/shijinsu/myown/master/cAI.txt
+v2ray.txt:
+https://raw.githubusercontent.com/shijinsu/myown/master/v.txt
+v2rayAI.txt:
+https://raw.githubusercontent.com/shijinsu/myown/master/vAI.txt

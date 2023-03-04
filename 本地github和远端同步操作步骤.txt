@@ -1,0 +1,64 @@
+https://github.com/shijinsu/myown.git#我的远端仓库地址
+
+首先打开电脑程序Git Bash，输入以下命令，并且一路按回车即可！
+ssh-keygen -t rsa -C "shijinsu888@gmail.com"
+会在电脑c:/user/shiji/.ssh文件夹里面自动生成id_rsa.pub公钥文件
+用记事本打开，复制其中的内容
+
+登录github,点右上角我的图标，然后点setting,再点左下SSH and GPG keys,再点右上New SSH key，把复制的内容填入，确定即可。（Settings -> SSH and GPG keys -> SSH keys -> New SSH key）
+最后验证是否添加成功，输入命令：
+ssh -T git@github.com
+回车后按提示输入 yes 回车即可。
+
+ 配置本地git：
+我先在D盘新建一个名为github文件夹
+打开Git Bash
+cd d:/github
+git config --global user.name "shijinsu"#注册Github账号名称
+git config --global user.email "shijinsu888@gmail.com"#注册Github用的邮箱地址
+
+git init#先初始化本地仓库（会自动增加.git文件夹及内部文件）
+
+git remote add origin git@github.com:shijinsu/myown.git#添加远程仓库
+git remote -v#查看远程仓库是否添加成功
+#origin  git@github.com:shijinsu/myown.git (fetch)#为显示的内容
+#origin  git@github.com:shijinsu/myown.git (push)#为显示的内容
+
+
+git pull origin master #把远端仓库的文件同步下载到本地仓库
+
+touch test.c #并添加一个文件 test.c，模拟修改本地仓库
+git add test.c #将文件添加到暂存区(文件多的话，可以使用 git add .  表示当前目录下的所有文件)
+git commit -m "update 20230303"
+git push origin master #推送本地仓库到远程仓库（显示Everything up-to-date）
+
+可以批量修改
+git add .
+git commit -m "update 20230303"
+git push origin master
+
+公钥：
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDF6PbDjYGaxokA0M+gUtFoG75KdJCOLLDZ0mz+wwHG+frFfZfaEYaT//dCsxPo+xiHpeH3qKGlRekpGHAy5RmDARN2+EjdOde4j432T1FqOYhi5Cd3i9Dz+iVC4NjY356hw4iXm761n77G6C//GWe8h5mwqWdp8Z8kyuOLICR/Z61VUweEFsAFGVXjNFUbfuRl8rp1nTVXUPO5KVftPgf7oSZRQ3C+FUw9NZlm8oxffiXV3repnaviwwh6pUJ967GHGoiopEJu1YZfwwI/93R79x83FK8Di7+Gf/MlSYyJ3wVkOJdKINmtXHWRSutAOjExxgt0Jk+IegftBsNH0408VEStG6/jrCsmz7LutpJs+uEB8ptaGh/ff+PeCpUftlOmjSoMvue71Rg8imn7NG/nuEIyYzGmi7QG9VMg7XnkPGH+CNOL2BFFcs8jahJAiJrntqPoZj4nCimhWLzyYdAk4+N1EcQvScfni6PAmEVwYioQp3OBfUsVGXhI2cYkcL0= shijinsu888@gmail.com
+公钥新：
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDcgwGm67mEdYGyoLRil+d7uj1kaavQb+r9kgqajePs95ySb+d6vRZgWBqF8hewjcbWI9Eu00B01G5WNf/tHE9LXrYRI3RC5H8tj9yzefWRz2gQ8C9QaBobkeSsntLD080Dijl4lnJlvNjwzTgVN7E5JtZfO1uziroUZk3QY4mxQLI9br3BwlH5joILGp5TdWnOFzfWSdjzyCltAQFPNHaOSMjBId8Ibw7Cf/UzulLikcQ/grcJe3qvjG9C2H95ERVZI086odEl7pmNnLB23z+RdYfbPZ3C0W5ZPztKo0FuhfqYNjokWOJ1VdLenCyFI10PjDQy1rzRs4wUrAjVAnbJotD00qeOurJTrRSvGDGBLwrdQVoHwz/9R6gCqTdvBw9DEI1fpf+fMWFhgNMi2tHNsRQdGjoFessMbY3IyKM6DtjBIYtqZjE2g5KfsDPNYsc5XqXSmgOPDHRPv9CFeIL4jscPniemIcPmK6F3kE9eHfRAILi5ZGwQ4xqF7qfaqx8= shijinsu888@gmail.com
+
+$ git push origin master
+To github.com:shijinsu/myown.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'github.com:shijinsu/myown.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+解决办法：
+git pull origin master
+
+error: failed to push some refs to 'github.com:shijinsu/myown.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+
+
