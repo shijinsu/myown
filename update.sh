@@ -8,6 +8,6 @@ cp d:/githubsource/v2rayAI.txt vAI.txt
 git add .
 git commit -m "updata"
 git pull origin master
-read -p
+read -p "please enter"
 git push origin master
 read -p "Press any key to continue."
