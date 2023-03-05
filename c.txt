@@ -5,95 +5,223 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _CN_中国, server: 47.104.237.32, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国 2, server: 112.132.215.189, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中国_1210014, server: 47.104.237.32, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中国_1206697, server: 112.132.215.189, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中国_1210012, server: 112.132.215.189, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中国_1130486, server: 47.104.237.32, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国07【CDN加速】, server: cdn.cctvvip.ml, port: 443, type: vmess, uuid: 17c0415c-2557-451d-f017-0486f47dc329, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us07.cctvvip.ml}, udp: true}
-  - {name: 美国【付费推荐：https://v1.mk/vip】188, server: 172.64.154.155, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
-  - {name: 美国03【CDN加速】, server: cdn.cctvvip.ml, port: 443, type: vmess, uuid: 1aefde30-51e7-4bbe-a8f6-9c1834b66c8d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us03.cctvvip.ml}, udp: true}
-  - {name: 日本06【CDN加速】, server: cdn.cctvvip.ml, port: 443, type: vmess, uuid: 142fcf72-fd39-4cd7-cbf8-064014c8b4e6, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp06.cctvvip.ml}, udp: true}
+  - {name: "[SS] Relay 🇹🇼 Taiwan(ChatGPT) 02 TG:@nodpai", server: 14.29.124.168, port: 24009, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: "@SSRSUB-V03-付费推荐:suo.yt/ssrsub", server: 123.249.101.15, port: 19709, type: vmess, uuid: 2f278a45-940a-46c1-c886-77f3b2d33987, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 123.249.101.15}, udp: true}
+  - {name: 荷兰【付费推荐：https://v1.mk/vip】63, server: 172.99.188.99, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 亚美尼亚【付费推荐：https://v1.mk/vip】335, server: 185.162.228.110, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
+  - {name: NL【付费推荐：goo.gs/vip】, server: 213.183.51.171, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 9, server: cf-lt.sharecentre.online, port: 8880, type: vmess, uuid: e59bd762-dacd-445c-8e2a-e1c5812949cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: ssrsub.v10.asuka.buzz}, udp: true}
+  - {name: _KR_韩国, server: 43.201.86.41, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _KR_韩国 2, server: 43.200.244.234, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: US_155, server: 38.68.135.18, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _JP_日本, server: 139.162.113.113, port: 443, type: trojan, password: a4b8293b-af60-4f1b-8572-dea4f5b6cdef, skip-cert-verify: true, udp: true}
+  - {name: 新加坡【付费推荐：https://v1.mk/vip】273, server: 13.213.38.103, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 日本01【CDN加速】, server: 172.64.150.150, port: 443, type: vmess, uuid: 10cacc93-34b3-4fb9-8a92-b0224e72db4e, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp01.cctvvip.ml}, udp: true}
-  - {name: 韩国01【CDN加速】, server: cdn.cctvvip.ml, port: 443, type: vmess, uuid: 1f2251e1-8fe3-416b-f670-af781dedb2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: kr01.cctvvip.ml}, udp: true}
-  - {name: 美国04【CDN加速】, server: cdn.cctvvip.ml, port: 443, type: vmess, uuid: 1123edae-1aa1-4cac-ad3e-7f2ea5f53eed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us04.cctvvip.ml}, udp: true}
-  - {name: 日本06【CDN加速】 2, server: 172.64.150.150, port: 443, type: vmess, uuid: 142fcf72-fd39-4cd7-cbf8-064014c8b4e6, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp06.cctvvip.ml}, udp: true}
-  - {name: 日本01【CDN加速】 2, server: cdn.cctvvip.ml, port: 443, type: vmess, uuid: 10cacc93-34b3-4fb9-8a92-b0224e72db4e, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp01.cctvvip.ml}, udp: true}
-  - {name: 美国03【CDN加速】 2, server: 172.64.150.150, port: 443, type: vmess, uuid: 1aefde30-51e7-4bbe-a8f6-9c1834b66c8d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us03.cctvvip.ml}, udp: true}
+  - {name: ‌🇨🇦CA_06+@WangCai_1, server: 134.195.196.178, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 塞浦路斯【付费推荐：https://v1.mk/vip】28, server: 203.24.108.8, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
+  - {name: _SG_新加坡, server: 54.169.113.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: Pool_🇳🇱NL_110, server: 85.208.108.60, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _JP_日本 2, server: 43.207.66.114, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _KR_韩国 3, server: 43.201.48.212, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 日本JGW-07【直连】, server: 141.147.149.186, port: 10344, type: vmess, uuid: 479972b1-e60d-4985-9a7f-dfee6498adb1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国, server: 54.186.216.67, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _SG_新加坡 2, server: 18.141.224.98, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 日本JGW-08【直连】, server: 141.147.153.244, port: 41545, type: vmess, uuid: d47d7135-0954-46ab-a190-17b6c8630a85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_148, server: 172.99.188.99, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 荷兰【付费推荐：https://v1.mk/vip】69, server: 172.99.188.99, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 2, server: 34.209.215.97, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _NL_荷兰, server: 172.99.188.99, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_187, server: 172.99.190.87, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 荷兰【付费推荐：https://v1.mk/vip】68, server: 172.99.188.99, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _NL_荷兰 2, server: 172.99.188.99, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: "[SS] 韩国aws|tg频道:@ripaojiedian", server: 54.203.94.5, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 印度孟买JGW【直连】, server: 140.238.224.7, port: 59073, type: vmess, uuid: 96cd23ea-fba0-4e17-a34c-cc629aab742a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _SG_新加坡 3, server: 13.215.191.190, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 24, server: 141.101.114.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
+  - {name: aaa 234, server: 141.101.115.140, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
+  - {name: 印度孟买JGW【直连】 2, server: 140.238.224.7, port: 59073, type: vmess, uuid: 96cd23ea-fba0-4e17-a34c-cc629aab742a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国【付费推荐：https://v1.mk/vip】280, server: 35.92.132.241, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: default_name 2, server: 198.41.203.6, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
+  - {name: _JP_日本 3, server: 43.207.109.176, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 美国【付费推荐：https://v1.mk/vip】206, server: 172.67.164.123, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
+  - {name: US_SSRSUB_198, server: 172.67.199.34, port: 443, type: vmess, uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shares, ws-headers: {Host: la.awsbest.com}, udp: true}
+  - {name: 日本06【CDN加速】, server: 172.64.150.150, port: 443, type: vmess, uuid: 142fcf72-fd39-4cd7-cbf8-064014c8b4e6, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp06.cctvvip.ml}, udp: true}
   - {name: 美国06【CDN加速】, server: 172.64.150.150, port: 443, type: vmess, uuid: 12177089-0502-48ab-f493-5e0f663a700c, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us06.cctvvip.ml}, udp: true}
-  - {name: 日本02【直连】, server: jp02.wxfz.ga, port: 443, type: vmess, uuid: 86987709-af08-428c-eb00-a26efe1b8204, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp02.wxfz.ga}, udp: true}
+  - {name: 美国03【CDN加速】, server: 172.64.150.150, port: 443, type: vmess, uuid: 1aefde30-51e7-4bbe-a8f6-9c1834b66c8d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us03.cctvvip.ml}, udp: true}
+  - {name: _US_美国->🇩🇪_DE_德国, server: 173.245.59.168, port: 8080, type: vmess, uuid: 27848739-7e62-4138-9fd3-938a63964b6b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /KTR, ws-headers: {Host: 4.arvanktbr.store}, udp: true}
+  - {name: 美国【付费推荐：https://v1.mk/vip】188, server: 172.64.154.155, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
+  - {name: 日本05【CDN加速】, server: 172.64.150.150, port: 443, type: vmess, uuid: 22dc16dd-1118-457c-9ddf-453996cd7920, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp05.cctvvip.ml}, udp: true}
+  - {name: _CN_中国, server: 112.132.215.189, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本JGW-08【直连】 2, server: 141.147.153.244, port: 41545, type: vmess, uuid: d47d7135-0954-46ab-a190-17b6c8630a85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本04【CDN加速】, server: 172.64.150.150, port: 443, type: vmess, uuid: 22ec1b67-6301-4775-f8cd-260f9a3098a1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp04.cctvvip.ml}, udp: true}
+  - {name: 美国01【CDN加速】, server: 172.64.150.150, port: 443, type: vmess, uuid: 198fcad6-32cd-4bbb-9247-421878e0c7bd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us01.cctvvip.ml}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _CN_中国
-      - _CN_中国 2
-      - 中国_1210014
-      - 中国_1206697
-      - 中国_1210012
-      - 中国_1130486
-      - 美国07【CDN加速】
-      - 美国【付费推荐：https://v1.mk/vip】188
-      - 美国03【CDN加速】
-      - 日本06【CDN加速】
+      - "[SS] Relay 🇹🇼 Taiwan(ChatGPT) 02 TG:@nodpai"
+      - "@SSRSUB-V03-付费推荐:suo.yt/ssrsub"
+      - 荷兰【付费推荐：https://v1.mk/vip】63
+      - 亚美尼亚【付费推荐：https://v1.mk/vip】335
+      - NL【付费推荐：goo.gs/vip】
+      - github.com/freefq - 美国CloudFlare节点 9
+      - _KR_韩国
+      - _KR_韩国 2
+      - US_155
+      - _JP_日本
+      - 新加坡【付费推荐：https://v1.mk/vip】273
       - 日本01【CDN加速】
-      - 韩国01【CDN加速】
-      - 美国04【CDN加速】
-      - 日本06【CDN加速】 2
-      - 日本01【CDN加速】 2
-      - 美国03【CDN加速】 2
+      - ‌🇨🇦CA_06+@WangCai_1
+      - 塞浦路斯【付费推荐：https://v1.mk/vip】28
+      - _SG_新加坡
+      - Pool_🇳🇱NL_110
+      - _JP_日本 2
+      - _KR_韩国 3
+      - 日本JGW-07【直连】
+      - _US_美国
+      - _SG_新加坡 2
+      - 日本JGW-08【直连】
+      - US_148
+      - 荷兰【付费推荐：https://v1.mk/vip】69
+      - _US_美国 2
+      - _NL_荷兰
+      - US_187
+      - 荷兰【付费推荐：https://v1.mk/vip】68
+      - _NL_荷兰 2
+      - "[SS] 韩国aws|tg频道:@ripaojiedian"
+      - 印度孟买JGW【直连】
+      - _SG_新加坡 3
+      - github.com/freefq - 美国CloudFlare节点 24
+      - aaa 234
+      - 印度孟买JGW【直连】 2
+      - 美国【付费推荐：https://v1.mk/vip】280
+      - default_name 2
+      - _JP_日本 3
+      - 美国【付费推荐：https://v1.mk/vip】206
+      - US_SSRSUB_198
+      - 日本06【CDN加速】
       - 美国06【CDN加速】
-      - 日本02【直连】
+      - 美国03【CDN加速】
+      - _US_美国->🇩🇪_DE_德国
+      - 美国【付费推荐：https://v1.mk/vip】188
+      - 日本05【CDN加速】
+      - _CN_中国
+      - 日本JGW-08【直连】 2
+      - 日本04【CDN加速】
+      - 美国01【CDN加速】
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _CN_中国
-      - _CN_中国 2
-      - 中国_1210014
-      - 中国_1206697
-      - 中国_1210012
-      - 中国_1130486
-      - 美国07【CDN加速】
-      - 美国【付费推荐：https://v1.mk/vip】188
-      - 美国03【CDN加速】
-      - 日本06【CDN加速】
+      - "[SS] Relay 🇹🇼 Taiwan(ChatGPT) 02 TG:@nodpai"
+      - "@SSRSUB-V03-付费推荐:suo.yt/ssrsub"
+      - 荷兰【付费推荐：https://v1.mk/vip】63
+      - 亚美尼亚【付费推荐：https://v1.mk/vip】335
+      - NL【付费推荐：goo.gs/vip】
+      - github.com/freefq - 美国CloudFlare节点 9
+      - _KR_韩国
+      - _KR_韩国 2
+      - US_155
+      - _JP_日本
+      - 新加坡【付费推荐：https://v1.mk/vip】273
       - 日本01【CDN加速】
-      - 韩国01【CDN加速】
-      - 美国04【CDN加速】
-      - 日本06【CDN加速】 2
-      - 日本01【CDN加速】 2
-      - 美国03【CDN加速】 2
+      - ‌🇨🇦CA_06+@WangCai_1
+      - 塞浦路斯【付费推荐：https://v1.mk/vip】28
+      - _SG_新加坡
+      - Pool_🇳🇱NL_110
+      - _JP_日本 2
+      - _KR_韩国 3
+      - 日本JGW-07【直连】
+      - _US_美国
+      - _SG_新加坡 2
+      - 日本JGW-08【直连】
+      - US_148
+      - 荷兰【付费推荐：https://v1.mk/vip】69
+      - _US_美国 2
+      - _NL_荷兰
+      - US_187
+      - 荷兰【付费推荐：https://v1.mk/vip】68
+      - _NL_荷兰 2
+      - "[SS] 韩国aws|tg频道:@ripaojiedian"
+      - 印度孟买JGW【直连】
+      - _SG_新加坡 3
+      - github.com/freefq - 美国CloudFlare节点 24
+      - aaa 234
+      - 印度孟买JGW【直连】 2
+      - 美国【付费推荐：https://v1.mk/vip】280
+      - default_name 2
+      - _JP_日本 3
+      - 美国【付费推荐：https://v1.mk/vip】206
+      - US_SSRSUB_198
+      - 日本06【CDN加速】
       - 美国06【CDN加速】
-      - 日本02【直连】
+      - 美国03【CDN加速】
+      - _US_美国->🇩🇪_DE_德国
+      - 美国【付费推荐：https://v1.mk/vip】188
+      - 日本05【CDN加速】
+      - _CN_中国
+      - 日本JGW-08【直连】 2
+      - 日本04【CDN加速】
+      - 美国01【CDN加速】
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _CN_中国
-      - _CN_中国 2
-      - 中国_1210014
-      - 中国_1206697
-      - 中国_1210012
-      - 中国_1130486
-      - 美国07【CDN加速】
-      - 美国【付费推荐：https://v1.mk/vip】188
-      - 美国03【CDN加速】
-      - 日本06【CDN加速】
+      - "[SS] Relay 🇹🇼 Taiwan(ChatGPT) 02 TG:@nodpai"
+      - "@SSRSUB-V03-付费推荐:suo.yt/ssrsub"
+      - 荷兰【付费推荐：https://v1.mk/vip】63
+      - 亚美尼亚【付费推荐：https://v1.mk/vip】335
+      - NL【付费推荐：goo.gs/vip】
+      - github.com/freefq - 美国CloudFlare节点 9
+      - _KR_韩国
+      - _KR_韩国 2
+      - US_155
+      - _JP_日本
+      - 新加坡【付费推荐：https://v1.mk/vip】273
       - 日本01【CDN加速】
-      - 韩国01【CDN加速】
-      - 美国04【CDN加速】
-      - 日本06【CDN加速】 2
-      - 日本01【CDN加速】 2
-      - 美国03【CDN加速】 2
+      - ‌🇨🇦CA_06+@WangCai_1
+      - 塞浦路斯【付费推荐：https://v1.mk/vip】28
+      - _SG_新加坡
+      - Pool_🇳🇱NL_110
+      - _JP_日本 2
+      - _KR_韩国 3
+      - 日本JGW-07【直连】
+      - _US_美国
+      - _SG_新加坡 2
+      - 日本JGW-08【直连】
+      - US_148
+      - 荷兰【付费推荐：https://v1.mk/vip】69
+      - _US_美国 2
+      - _NL_荷兰
+      - US_187
+      - 荷兰【付费推荐：https://v1.mk/vip】68
+      - _NL_荷兰 2
+      - "[SS] 韩国aws|tg频道:@ripaojiedian"
+      - 印度孟买JGW【直连】
+      - _SG_新加坡 3
+      - github.com/freefq - 美国CloudFlare节点 24
+      - aaa 234
+      - 印度孟买JGW【直连】 2
+      - 美国【付费推荐：https://v1.mk/vip】280
+      - default_name 2
+      - _JP_日本 3
+      - 美国【付费推荐：https://v1.mk/vip】206
+      - US_SSRSUB_198
+      - 日本06【CDN加速】
       - 美国06【CDN加速】
-      - 日本02【直连】
+      - 美国03【CDN加速】
+      - _US_美国->🇩🇪_DE_德国
+      - 美国【付费推荐：https://v1.mk/vip】188
+      - 日本05【CDN加速】
+      - _CN_中国
+      - 日本JGW-08【直连】 2
+      - 日本04【CDN加速】
+      - 美国01【CDN加速】
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -112,24 +240,56 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _CN_中国
-      - _CN_中国 2
-      - 中国_1210014
-      - 中国_1206697
-      - 中国_1210012
-      - 中国_1130486
-      - 美国07【CDN加速】
-      - 美国【付费推荐：https://v1.mk/vip】188
-      - 美国03【CDN加速】
-      - 日本06【CDN加速】
+      - "[SS] Relay 🇹🇼 Taiwan(ChatGPT) 02 TG:@nodpai"
+      - "@SSRSUB-V03-付费推荐:suo.yt/ssrsub"
+      - 荷兰【付费推荐：https://v1.mk/vip】63
+      - 亚美尼亚【付费推荐：https://v1.mk/vip】335
+      - NL【付费推荐：goo.gs/vip】
+      - github.com/freefq - 美国CloudFlare节点 9
+      - _KR_韩国
+      - _KR_韩国 2
+      - US_155
+      - _JP_日本
+      - 新加坡【付费推荐：https://v1.mk/vip】273
       - 日本01【CDN加速】
-      - 韩国01【CDN加速】
-      - 美国04【CDN加速】
-      - 日本06【CDN加速】 2
-      - 日本01【CDN加速】 2
-      - 美国03【CDN加速】 2
+      - ‌🇨🇦CA_06+@WangCai_1
+      - 塞浦路斯【付费推荐：https://v1.mk/vip】28
+      - _SG_新加坡
+      - Pool_🇳🇱NL_110
+      - _JP_日本 2
+      - _KR_韩国 3
+      - 日本JGW-07【直连】
+      - _US_美国
+      - _SG_新加坡 2
+      - 日本JGW-08【直连】
+      - US_148
+      - 荷兰【付费推荐：https://v1.mk/vip】69
+      - _US_美国 2
+      - _NL_荷兰
+      - US_187
+      - 荷兰【付费推荐：https://v1.mk/vip】68
+      - _NL_荷兰 2
+      - "[SS] 韩国aws|tg频道:@ripaojiedian"
+      - 印度孟买JGW【直连】
+      - _SG_新加坡 3
+      - github.com/freefq - 美国CloudFlare节点 24
+      - aaa 234
+      - 印度孟买JGW【直连】 2
+      - 美国【付费推荐：https://v1.mk/vip】280
+      - default_name 2
+      - _JP_日本 3
+      - 美国【付费推荐：https://v1.mk/vip】206
+      - US_SSRSUB_198
+      - 日本06【CDN加速】
       - 美国06【CDN加速】
-      - 日本02【直连】
+      - 美国03【CDN加速】
+      - _US_美国->🇩🇪_DE_德国
+      - 美国【付费推荐：https://v1.mk/vip】188
+      - 日本05【CDN加速】
+      - _CN_中国
+      - 日本JGW-08【直连】 2
+      - 日本04【CDN加速】
+      - 美国01【CDN加速】
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -140,71 +300,167 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _CN_中国
-      - _CN_中国 2
-      - 中国_1210014
-      - 中国_1206697
-      - 中国_1210012
-      - 中国_1130486
-      - 美国07【CDN加速】
-      - 美国【付费推荐：https://v1.mk/vip】188
-      - 美国03【CDN加速】
-      - 日本06【CDN加速】
+      - "[SS] Relay 🇹🇼 Taiwan(ChatGPT) 02 TG:@nodpai"
+      - "@SSRSUB-V03-付费推荐:suo.yt/ssrsub"
+      - 荷兰【付费推荐：https://v1.mk/vip】63
+      - 亚美尼亚【付费推荐：https://v1.mk/vip】335
+      - NL【付费推荐：goo.gs/vip】
+      - github.com/freefq - 美国CloudFlare节点 9
+      - _KR_韩国
+      - _KR_韩国 2
+      - US_155
+      - _JP_日本
+      - 新加坡【付费推荐：https://v1.mk/vip】273
       - 日本01【CDN加速】
-      - 韩国01【CDN加速】
-      - 美国04【CDN加速】
-      - 日本06【CDN加速】 2
-      - 日本01【CDN加速】 2
-      - 美国03【CDN加速】 2
+      - ‌🇨🇦CA_06+@WangCai_1
+      - 塞浦路斯【付费推荐：https://v1.mk/vip】28
+      - _SG_新加坡
+      - Pool_🇳🇱NL_110
+      - _JP_日本 2
+      - _KR_韩国 3
+      - 日本JGW-07【直连】
+      - _US_美国
+      - _SG_新加坡 2
+      - 日本JGW-08【直连】
+      - US_148
+      - 荷兰【付费推荐：https://v1.mk/vip】69
+      - _US_美国 2
+      - _NL_荷兰
+      - US_187
+      - 荷兰【付费推荐：https://v1.mk/vip】68
+      - _NL_荷兰 2
+      - "[SS] 韩国aws|tg频道:@ripaojiedian"
+      - 印度孟买JGW【直连】
+      - _SG_新加坡 3
+      - github.com/freefq - 美国CloudFlare节点 24
+      - aaa 234
+      - 印度孟买JGW【直连】 2
+      - 美国【付费推荐：https://v1.mk/vip】280
+      - default_name 2
+      - _JP_日本 3
+      - 美国【付费推荐：https://v1.mk/vip】206
+      - US_SSRSUB_198
+      - 日本06【CDN加速】
       - 美国06【CDN加速】
-      - 日本02【直连】
+      - 美国03【CDN加速】
+      - _US_美国->🇩🇪_DE_德国
+      - 美国【付费推荐：https://v1.mk/vip】188
+      - 日本05【CDN加速】
+      - _CN_中国
+      - 日本JGW-08【直连】 2
+      - 日本04【CDN加速】
+      - 美国01【CDN加速】
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _CN_中国
-      - _CN_中国 2
-      - 中国_1210014
-      - 中国_1206697
-      - 中国_1210012
-      - 中国_1130486
-      - 美国07【CDN加速】
-      - 美国【付费推荐：https://v1.mk/vip】188
-      - 美国03【CDN加速】
-      - 日本06【CDN加速】
+      - "[SS] Relay 🇹🇼 Taiwan(ChatGPT) 02 TG:@nodpai"
+      - "@SSRSUB-V03-付费推荐:suo.yt/ssrsub"
+      - 荷兰【付费推荐：https://v1.mk/vip】63
+      - 亚美尼亚【付费推荐：https://v1.mk/vip】335
+      - NL【付费推荐：goo.gs/vip】
+      - github.com/freefq - 美国CloudFlare节点 9
+      - _KR_韩国
+      - _KR_韩国 2
+      - US_155
+      - _JP_日本
+      - 新加坡【付费推荐：https://v1.mk/vip】273
       - 日本01【CDN加速】
-      - 韩国01【CDN加速】
-      - 美国04【CDN加速】
-      - 日本06【CDN加速】 2
-      - 日本01【CDN加速】 2
-      - 美国03【CDN加速】 2
+      - ‌🇨🇦CA_06+@WangCai_1
+      - 塞浦路斯【付费推荐：https://v1.mk/vip】28
+      - _SG_新加坡
+      - Pool_🇳🇱NL_110
+      - _JP_日本 2
+      - _KR_韩国 3
+      - 日本JGW-07【直连】
+      - _US_美国
+      - _SG_新加坡 2
+      - 日本JGW-08【直连】
+      - US_148
+      - 荷兰【付费推荐：https://v1.mk/vip】69
+      - _US_美国 2
+      - _NL_荷兰
+      - US_187
+      - 荷兰【付费推荐：https://v1.mk/vip】68
+      - _NL_荷兰 2
+      - "[SS] 韩国aws|tg频道:@ripaojiedian"
+      - 印度孟买JGW【直连】
+      - _SG_新加坡 3
+      - github.com/freefq - 美国CloudFlare节点 24
+      - aaa 234
+      - 印度孟买JGW【直连】 2
+      - 美国【付费推荐：https://v1.mk/vip】280
+      - default_name 2
+      - _JP_日本 3
+      - 美国【付费推荐：https://v1.mk/vip】206
+      - US_SSRSUB_198
+      - 日本06【CDN加速】
       - 美国06【CDN加速】
-      - 日本02【直连】
+      - 美国03【CDN加速】
+      - _US_美国->🇩🇪_DE_德国
+      - 美国【付费推荐：https://v1.mk/vip】188
+      - 日本05【CDN加速】
+      - _CN_中国
+      - 日本JGW-08【直连】 2
+      - 日本04【CDN加速】
+      - 美国01【CDN加速】
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _CN_中国
-      - _CN_中国 2
-      - 中国_1210014
-      - 中国_1206697
-      - 中国_1210012
-      - 中国_1130486
-      - 美国07【CDN加速】
-      - 美国【付费推荐：https://v1.mk/vip】188
-      - 美国03【CDN加速】
-      - 日本06【CDN加速】
+      - "[SS] Relay 🇹🇼 Taiwan(ChatGPT) 02 TG:@nodpai"
+      - "@SSRSUB-V03-付费推荐:suo.yt/ssrsub"
+      - 荷兰【付费推荐：https://v1.mk/vip】63
+      - 亚美尼亚【付费推荐：https://v1.mk/vip】335
+      - NL【付费推荐：goo.gs/vip】
+      - github.com/freefq - 美国CloudFlare节点 9
+      - _KR_韩国
+      - _KR_韩国 2
+      - US_155
+      - _JP_日本
+      - 新加坡【付费推荐：https://v1.mk/vip】273
       - 日本01【CDN加速】
-      - 韩国01【CDN加速】
-      - 美国04【CDN加速】
-      - 日本06【CDN加速】 2
-      - 日本01【CDN加速】 2
-      - 美国03【CDN加速】 2
+      - ‌🇨🇦CA_06+@WangCai_1
+      - 塞浦路斯【付费推荐：https://v1.mk/vip】28
+      - _SG_新加坡
+      - Pool_🇳🇱NL_110
+      - _JP_日本 2
+      - _KR_韩国 3
+      - 日本JGW-07【直连】
+      - _US_美国
+      - _SG_新加坡 2
+      - 日本JGW-08【直连】
+      - US_148
+      - 荷兰【付费推荐：https://v1.mk/vip】69
+      - _US_美国 2
+      - _NL_荷兰
+      - US_187
+      - 荷兰【付费推荐：https://v1.mk/vip】68
+      - _NL_荷兰 2
+      - "[SS] 韩国aws|tg频道:@ripaojiedian"
+      - 印度孟买JGW【直连】
+      - _SG_新加坡 3
+      - github.com/freefq - 美国CloudFlare节点 24
+      - aaa 234
+      - 印度孟买JGW【直连】 2
+      - 美国【付费推荐：https://v1.mk/vip】280
+      - default_name 2
+      - _JP_日本 3
+      - 美国【付费推荐：https://v1.mk/vip】206
+      - US_SSRSUB_198
+      - 日本06【CDN加速】
       - 美国06【CDN加速】
-      - 日本02【直连】
+      - 美国03【CDN加速】
+      - _US_美国->🇩🇪_DE_德国
+      - 美国【付费推荐：https://v1.mk/vip】188
+      - 日本05【CDN加速】
+      - _CN_中国
+      - 日本JGW-08【直连】 2
+      - 日本04【CDN加速】
+      - 美国01【CDN加速】
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -220,24 +476,56 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _CN_中国
-      - _CN_中国 2
-      - 中国_1210014
-      - 中国_1206697
-      - 中国_1210012
-      - 中国_1130486
-      - 美国07【CDN加速】
-      - 美国【付费推荐：https://v1.mk/vip】188
-      - 美国03【CDN加速】
-      - 日本06【CDN加速】
+      - "[SS] Relay 🇹🇼 Taiwan(ChatGPT) 02 TG:@nodpai"
+      - "@SSRSUB-V03-付费推荐:suo.yt/ssrsub"
+      - 荷兰【付费推荐：https://v1.mk/vip】63
+      - 亚美尼亚【付费推荐：https://v1.mk/vip】335
+      - NL【付费推荐：goo.gs/vip】
+      - github.com/freefq - 美国CloudFlare节点 9
+      - _KR_韩国
+      - _KR_韩国 2
+      - US_155
+      - _JP_日本
+      - 新加坡【付费推荐：https://v1.mk/vip】273
       - 日本01【CDN加速】
-      - 韩国01【CDN加速】
-      - 美国04【CDN加速】
-      - 日本06【CDN加速】 2
-      - 日本01【CDN加速】 2
-      - 美国03【CDN加速】 2
+      - ‌🇨🇦CA_06+@WangCai_1
+      - 塞浦路斯【付费推荐：https://v1.mk/vip】28
+      - _SG_新加坡
+      - Pool_🇳🇱NL_110
+      - _JP_日本 2
+      - _KR_韩国 3
+      - 日本JGW-07【直连】
+      - _US_美国
+      - _SG_新加坡 2
+      - 日本JGW-08【直连】
+      - US_148
+      - 荷兰【付费推荐：https://v1.mk/vip】69
+      - _US_美国 2
+      - _NL_荷兰
+      - US_187
+      - 荷兰【付费推荐：https://v1.mk/vip】68
+      - _NL_荷兰 2
+      - "[SS] 韩国aws|tg频道:@ripaojiedian"
+      - 印度孟买JGW【直连】
+      - _SG_新加坡 3
+      - github.com/freefq - 美国CloudFlare节点 24
+      - aaa 234
+      - 印度孟买JGW【直连】 2
+      - 美国【付费推荐：https://v1.mk/vip】280
+      - default_name 2
+      - _JP_日本 3
+      - 美国【付费推荐：https://v1.mk/vip】206
+      - US_SSRSUB_198
+      - 日本06【CDN加速】
       - 美国06【CDN加速】
-      - 日本02【直连】
+      - 美国03【CDN加速】
+      - _US_美国->🇩🇪_DE_德国
+      - 美国【付费推荐：https://v1.mk/vip】188
+      - 日本05【CDN加速】
+      - _CN_中国
+      - 日本JGW-08【直连】 2
+      - 日本04【CDN加速】
+      - 美国01【CDN加速】
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
