@@ -51,7 +51,6 @@ proxies:
   - {name: _US_美国->🇩🇪_DE_德国, server: 173.245.59.168, port: 8080, type: vmess, uuid: 27848739-7e62-4138-9fd3-938a63964b6b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /KTR, ws-headers: {Host: 4.arvanktbr.store}, udp: true}
   - {name: 美国【付费推荐：https://v1.mk/vip】188, server: 172.64.154.155, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
   - {name: 日本05【CDN加速】, server: 172.64.150.150, port: 443, type: vmess, uuid: 22dc16dd-1118-457c-9ddf-453996cd7920, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp05.cctvvip.ml}, udp: true}
-  - {name: _CN_中国, server: 112.132.215.189, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 日本JGW-08【直连】 2, server: 141.147.153.244, port: 41545, type: vmess, uuid: d47d7135-0954-46ab-a190-17b6c8630a85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 日本04【CDN加速】, server: 172.64.150.150, port: 443, type: vmess, uuid: 22ec1b67-6301-4775-f8cd-260f9a3098a1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp04.cctvvip.ml}, udp: true}
   - {name: 美国01【CDN加速】, server: 172.64.150.150, port: 443, type: vmess, uuid: 198fcad6-32cd-4bbb-9247-421878e0c7bd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us01.cctvvip.ml}, udp: true}
@@ -107,7 +106,6 @@ proxy-groups:
       - _US_美国->🇩🇪_DE_德国
       - 美国【付费推荐：https://v1.mk/vip】188
       - 日本05【CDN加速】
-      - _CN_中国
       - 日本JGW-08【直连】 2
       - 日本04【CDN加速】
       - 美国01【CDN加速】
@@ -162,7 +160,6 @@ proxy-groups:
       - _US_美国->🇩🇪_DE_德国
       - 美国【付费推荐：https://v1.mk/vip】188
       - 日本05【CDN加速】
-      - _CN_中国
       - 日本JGW-08【直连】 2
       - 日本04【CDN加速】
       - 美国01【CDN加速】
@@ -218,7 +215,6 @@ proxy-groups:
       - _US_美国->🇩🇪_DE_德国
       - 美国【付费推荐：https://v1.mk/vip】188
       - 日本05【CDN加速】
-      - _CN_中国
       - 日本JGW-08【直连】 2
       - 日本04【CDN加速】
       - 美国01【CDN加速】
@@ -286,7 +282,6 @@ proxy-groups:
       - _US_美国->🇩🇪_DE_德国
       - 美国【付费推荐：https://v1.mk/vip】188
       - 日本05【CDN加速】
-      - _CN_中国
       - 日本JGW-08【直连】 2
       - 日本04【CDN加速】
       - 美国01【CDN加速】
@@ -346,7 +341,6 @@ proxy-groups:
       - _US_美国->🇩🇪_DE_德国
       - 美国【付费推荐：https://v1.mk/vip】188
       - 日本05【CDN加速】
-      - _CN_中国
       - 日本JGW-08【直连】 2
       - 日本04【CDN加速】
       - 美国01【CDN加速】
@@ -401,7 +395,6 @@ proxy-groups:
       - _US_美国->🇩🇪_DE_德国
       - 美国【付费推荐：https://v1.mk/vip】188
       - 日本05【CDN加速】
-      - _CN_中国
       - 日本JGW-08【直连】 2
       - 日本04【CDN加速】
       - 美国01【CDN加速】
@@ -457,7 +450,6 @@ proxy-groups:
       - _US_美国->🇩🇪_DE_德国
       - 美国【付费推荐：https://v1.mk/vip】188
       - 日本05【CDN加速】
-      - _CN_中国
       - 日本JGW-08【直连】 2
       - 日本04【CDN加速】
       - 美国01【CDN加速】
@@ -522,7 +514,6 @@ proxy-groups:
       - _US_美国->🇩🇪_DE_德国
       - 美国【付费推荐：https://v1.mk/vip】188
       - 日本05【CDN加速】
-      - _CN_中国
       - 日本JGW-08【直连】 2
       - 日本04【CDN加速】
       - 美国01【CDN加速】
