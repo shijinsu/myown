@@ -1,3 +1,4 @@
+git init
 git remote -v
 cd  d:/githubsource
 cp clash.yaml d:/github/c.txt
