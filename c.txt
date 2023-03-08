@@ -7,8 +7,20 @@ external-controller: :9090
 proxies:
   - {name: "[SS] Relay 🇹🇼 Taiwan(ChatGPT) 02 TG:@nodpai", server: 14.29.124.168, port: 24009, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 美国【付费推荐：https://v1.mk/vip】214, server: finland1.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /WKtzeN11GLqwVNBTp9mX, ws-headers: {Host: finland1.yj2022.ga}, udp: true}
-  - {name: 美国06【测试】, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 12177089-0502-48ab-f493-5e0f663a700c, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us06.cctvvip.ml}, udp: true}
   - {name: _CN_中国->🇸🇬_SG_新加坡, server: hy.guanguan.club, port: 11410, type: vmess, uuid: 5707bceb-1da9-41e1-bd03-1bb3d1c28a2c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nba, ws-headers: {Host: sg1.oraclec.pp.ua}, udp: true}
+  - {name: 美国【付费推荐：https://v1.mk/vip】181, server: cdn.xia.me, port: 443, type: vmess, uuid: 68fe8d27-cbc8-4e72-90b7-70d3bb69dfd3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api, ws-headers: {Host: us12.cachexy.ga}, udp: true}
+  - {name: 美国06【测试】, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 12177089-0502-48ab-f493-5e0f663a700c, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us06.cctvvip.ml}, udp: true}
+  - {name: 伯利兹【付费推荐：https://v1.mk/vip】179, server: 203.30.191.4, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
+  - {name: 中国【付费推荐：https://v1.mk/vip】73, server: hy.guanguan.club, port: 11410, type: vmess, uuid: 5707bceb-1da9-41e1-bd03-1bb3d1c28a2c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nba, ws-headers: {Host: hy.guanguan.club}, udp: true}
+  - {name: 日本05【CDN加速】, server: cdn.cctvvip.ml, port: 443, type: vmess, uuid: 22dc16dd-1118-457c-9ddf-453996cd7920, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp05.cctvvip.ml}, udp: true}
+  - {name: 印度孟买JGW【直连】, server: 140.238.224.7, port: 59073, type: vmess, uuid: 96cd23ea-fba0-4e17-a34c-cc629aab742a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国04【联通线路】, server: fdcdn.cctvvip.ml, port: 443, type: vmess, uuid: 1123edae-1aa1-4cac-ad3e-7f2ea5f53eed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us04.cctvvip.ml}, udp: true}
+  - {name: 美国06【测试】 2, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 12177089-0502-48ab-f493-5e0f663a700c, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us06.cctvvip.ml}, udp: true}
+  - {name: 美国07【联通线路】, server: fdcdn.cctvvip.ml, port: 443, type: vmess, uuid: 17c0415c-2557-451d-f017-0486f47dc329, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us07.cctvvip.ml}, udp: true}
+  - {name: 美国03【联通线路】, server: fdcdn.cctvvip.ml, port: 443, type: vmess, uuid: 1aefde30-51e7-4bbe-a8f6-9c1834b66c8d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us03.cctvvip.ml}, udp: true}
+  - {name: 日本03【测试】, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 228a73ee-a5a3-4dce-a832-5c3f60841032, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp03.cctvvip.ml}, udp: true}
+  - {name: 印度【付费推荐：https://v1.mk/vip】152, server: vin1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vin1.0bad.com}, udp: true}
+  - {name: 美国06【CDN加速】, server: cdn.cctvvip.ml, port: 443, type: vmess, uuid: 12177089-0502-48ab-f493-5e0f663a700c, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us06.cctvvip.ml}, udp: true}
   - {name: 伯利兹【付费推荐：https://v1.mk/vip】135, server: 203.30.191.20, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
   - {name: 美国04【测试】, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 1123edae-1aa1-4cac-ad3e-7f2ea5f53eed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us04.cctvvip.ml}, udp: true}
   - {name: 美国01【直连】, server: us01.wxfz.ga, port: 443, type: vmess, uuid: f43017fa-b88b-47bc-c36f-8fc9bbc4050e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us01.wxfz.ga}, udp: true}
@@ -18,24 +30,29 @@ proxies:
   - {name: 日本01【CDN加速】, server: cdn.cctvvip.ml, port: 443, type: vmess, uuid: 10cacc93-34b3-4fb9-8a92-b0224e72db4e, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp01.cctvvip.ml}, udp: true}
   - {name: 韩国01【CDN加速】, server: cdn.cctvvip.ml, port: 443, type: vmess, uuid: 1f2251e1-8fe3-416b-f670-af781dedb2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: kr01.cctvvip.ml}, udp: true}
   - {name: 伯利兹【付费推荐：https://v1.mk/vip】23, server: 203.30.191.6, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
+  - {name: 日本03【CDN加速】, server: 172.64.150.150, port: 443, type: vmess, uuid: 228a73ee-a5a3-4dce-a832-5c3f60841032, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp03.cctvvip.ml}, udp: true}
   - {name: 日本02【直连】, server: jp02.wxfz.ga, port: 443, type: vmess, uuid: 86987709-af08-428c-eb00-a26efe1b8204, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp02.wxfz.ga}, udp: true}
+  - {name: 美国06【CDN加速】 2, server: 172.64.150.150, port: 443, type: vmess, uuid: 12177089-0502-48ab-f493-5e0f663a700c, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us06.cctvvip.ml}, udp: true}
   - {name: 美国04【测试】 2, server: v2fly.samrta.website, port: 443, type: vmess, uuid: 1123edae-1aa1-4cac-ad3e-7f2ea5f53eed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us04.cctvvip.ml}, udp: true}
   - {name: 日本01【测试】 2, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 10cacc93-34b3-4fb9-8a92-b0224e72db4e, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp01.cctvvip.ml}, udp: true}
-  - {name: 日本03【测试】, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 228a73ee-a5a3-4dce-a832-5c3f60841032, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp03.cctvvip.ml}, udp: true}
+  - {name: 日本JGW-08【直连】, server: 141.147.153.244, port: 41545, type: vmess, uuid: d47d7135-0954-46ab-a190-17b6c8630a85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本03【测试】 2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 228a73ee-a5a3-4dce-a832-5c3f60841032, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp03.cctvvip.ml}, udp: true}
   - {name: 美国04【测试】 3, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 1123edae-1aa1-4cac-ad3e-7f2ea5f53eed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us04.cctvvip.ml}, udp: true}
   - {name: 韩国01【测试】, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 1f2251e1-8fe3-416b-f670-af781dedb2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: kr01.cctvvip.ml}, udp: true}
   - {name: 美国07【测试】 2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 17c0415c-2557-451d-f017-0486f47dc329, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us07.cctvvip.ml}, udp: true}
   - {name: 美国04【CDN加速】, server: cdn.cctvvip.ml, port: 443, type: vmess, uuid: 1123edae-1aa1-4cac-ad3e-7f2ea5f53eed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us04.cctvvip.ml}, udp: true}
   - {name: 美国07【CDN加速】, server: cdn.cctvvip.ml, port: 443, type: vmess, uuid: 17c0415c-2557-451d-f017-0486f47dc329, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us07.cctvvip.ml}, udp: true}
-  - {name: 日本03【CDN加速】, server: cdn.cctvvip.ml, port: 443, type: vmess, uuid: 228a73ee-a5a3-4dce-a832-5c3f60841032, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp03.cctvvip.ml}, udp: true}
+  - {name: 日本03【CDN加速】 2, server: cdn.cctvvip.ml, port: 443, type: vmess, uuid: 228a73ee-a5a3-4dce-a832-5c3f60841032, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp03.cctvvip.ml}, udp: true}
   - {name: 美国03【测试】, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 1aefde30-51e7-4bbe-a8f6-9c1834b66c8d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us03.cctvvip.ml}, udp: true}
   - {name: 日本05【测试】, server: v2fly.samrta.website, port: 443, type: vmess, uuid: 22dc16dd-1118-457c-9ddf-453996cd7920, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp05.cctvvip.ml}, udp: true}
   - {name: 日本05【测试】 2, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 22dc16dd-1118-457c-9ddf-453996cd7920, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp05.cctvvip.ml}, udp: true}
   - {name: 日本05【测试】 3, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 22dc16dd-1118-457c-9ddf-453996cd7920, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp05.cctvvip.ml}, udp: true}
   - {name: 美国03【CDN加速】, server: cdn.cctvvip.ml, port: 443, type: vmess, uuid: 1aefde30-51e7-4bbe-a8f6-9c1834b66c8d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us03.cctvvip.ml}, udp: true}
+  - {name: 日本05【联通线路】, server: fdcdn.cctvvip.ml, port: 443, type: vmess, uuid: 22dc16dd-1118-457c-9ddf-453996cd7920, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp05.cctvvip.ml}, udp: true}
   - {name: 美国07【测试】 3, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 17c0415c-2557-451d-f017-0486f47dc329, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us07.cctvvip.ml}, udp: true}
   - {name: 美国03【测试】 2, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 1aefde30-51e7-4bbe-a8f6-9c1834b66c8d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us03.cctvvip.ml}, udp: true}
   - {name: 韩国01【测试】 2, server: v2fly.samrta.website, port: 443, type: vmess, uuid: 1f2251e1-8fe3-416b-f670-af781dedb2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: kr01.cctvvip.ml}, udp: true}
+  - {name: 美国01【联通线路】, server: fdcdn.cctvvip.ml, port: 443, type: vmess, uuid: 198fcad6-32cd-4bbb-9247-421878e0c7bd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us01.cctvvip.ml}, udp: true}
   - {name: 美国01【测试】, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 198fcad6-32cd-4bbb-9247-421878e0c7bd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us01.cctvvip.ml}, udp: true}
   - {name: _CN_中国, server: 39.103.165.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 美国06【联通线路】, server: fdcdn.cctvvip.ml, port: 443, type: vmess, uuid: 12177089-0502-48ab-f493-5e0f663a700c, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us06.cctvvip.ml}, udp: true}
@@ -47,8 +64,20 @@ proxy-groups:
       - 🎯 全球直连
       - "[SS] Relay 🇹🇼 Taiwan(ChatGPT) 02 TG:@nodpai"
       - 美国【付费推荐：https://v1.mk/vip】214
-      - 美国06【测试】
       - _CN_中国->🇸🇬_SG_新加坡
+      - 美国【付费推荐：https://v1.mk/vip】181
+      - 美国06【测试】
+      - 伯利兹【付费推荐：https://v1.mk/vip】179
+      - 中国【付费推荐：https://v1.mk/vip】73
+      - 日本05【CDN加速】
+      - 印度孟买JGW【直连】
+      - 美国04【联通线路】
+      - 美国06【测试】 2
+      - 美国07【联通线路】
+      - 美国03【联通线路】
+      - 日本03【测试】
+      - 印度【付费推荐：https://v1.mk/vip】152
+      - 美国06【CDN加速】
       - 伯利兹【付费推荐：https://v1.mk/vip】135
       - 美国04【测试】
       - 美国01【直连】
@@ -58,24 +87,29 @@ proxy-groups:
       - 日本01【CDN加速】
       - 韩国01【CDN加速】
       - 伯利兹【付费推荐：https://v1.mk/vip】23
+      - 日本03【CDN加速】
       - 日本02【直连】
+      - 美国06【CDN加速】 2
       - 美国04【测试】 2
       - 日本01【测试】 2
-      - 日本03【测试】
+      - 日本JGW-08【直连】
+      - 日本03【测试】 2
       - 美国04【测试】 3
       - 韩国01【测试】
       - 美国07【测试】 2
       - 美国04【CDN加速】
       - 美国07【CDN加速】
-      - 日本03【CDN加速】
+      - 日本03【CDN加速】 2
       - 美国03【测试】
       - 日本05【测试】
       - 日本05【测试】 2
       - 日本05【测试】 3
       - 美国03【CDN加速】
+      - 日本05【联通线路】
       - 美国07【测试】 3
       - 美国03【测试】 2
       - 韩国01【测试】 2
+      - 美国01【联通线路】
       - 美国01【测试】
       - _CN_中国
       - 美国06【联通线路】
@@ -86,8 +120,20 @@ proxy-groups:
     proxies:
       - "[SS] Relay 🇹🇼 Taiwan(ChatGPT) 02 TG:@nodpai"
       - 美国【付费推荐：https://v1.mk/vip】214
-      - 美国06【测试】
       - _CN_中国->🇸🇬_SG_新加坡
+      - 美国【付费推荐：https://v1.mk/vip】181
+      - 美国06【测试】
+      - 伯利兹【付费推荐：https://v1.mk/vip】179
+      - 中国【付费推荐：https://v1.mk/vip】73
+      - 日本05【CDN加速】
+      - 印度孟买JGW【直连】
+      - 美国04【联通线路】
+      - 美国06【测试】 2
+      - 美国07【联通线路】
+      - 美国03【联通线路】
+      - 日本03【测试】
+      - 印度【付费推荐：https://v1.mk/vip】152
+      - 美国06【CDN加速】
       - 伯利兹【付费推荐：https://v1.mk/vip】135
       - 美国04【测试】
       - 美国01【直连】
@@ -97,24 +143,29 @@ proxy-groups:
       - 日本01【CDN加速】
       - 韩国01【CDN加速】
       - 伯利兹【付费推荐：https://v1.mk/vip】23
+      - 日本03【CDN加速】
       - 日本02【直连】
+      - 美国06【CDN加速】 2
       - 美国04【测试】 2
       - 日本01【测试】 2
-      - 日本03【测试】
+      - 日本JGW-08【直连】
+      - 日本03【测试】 2
       - 美国04【测试】 3
       - 韩国01【测试】
       - 美国07【测试】 2
       - 美国04【CDN加速】
       - 美国07【CDN加速】
-      - 日本03【CDN加速】
+      - 日本03【CDN加速】 2
       - 美国03【测试】
       - 日本05【测试】
       - 日本05【测试】 2
       - 日本05【测试】 3
       - 美国03【CDN加速】
+      - 日本05【联通线路】
       - 美国07【测试】 3
       - 美国03【测试】 2
       - 韩国01【测试】 2
+      - 美国01【联通线路】
       - 美国01【测试】
       - _CN_中国
       - 美国06【联通线路】
@@ -126,8 +177,20 @@ proxy-groups:
       - 🎯 全球直连
       - "[SS] Relay 🇹🇼 Taiwan(ChatGPT) 02 TG:@nodpai"
       - 美国【付费推荐：https://v1.mk/vip】214
-      - 美国06【测试】
       - _CN_中国->🇸🇬_SG_新加坡
+      - 美国【付费推荐：https://v1.mk/vip】181
+      - 美国06【测试】
+      - 伯利兹【付费推荐：https://v1.mk/vip】179
+      - 中国【付费推荐：https://v1.mk/vip】73
+      - 日本05【CDN加速】
+      - 印度孟买JGW【直连】
+      - 美国04【联通线路】
+      - 美国06【测试】 2
+      - 美国07【联通线路】
+      - 美国03【联通线路】
+      - 日本03【测试】
+      - 印度【付费推荐：https://v1.mk/vip】152
+      - 美国06【CDN加速】
       - 伯利兹【付费推荐：https://v1.mk/vip】135
       - 美国04【测试】
       - 美国01【直连】
@@ -137,24 +200,29 @@ proxy-groups:
       - 日本01【CDN加速】
       - 韩国01【CDN加速】
       - 伯利兹【付费推荐：https://v1.mk/vip】23
+      - 日本03【CDN加速】
       - 日本02【直连】
+      - 美国06【CDN加速】 2
       - 美国04【测试】 2
       - 日本01【测试】 2
-      - 日本03【测试】
+      - 日本JGW-08【直连】
+      - 日本03【测试】 2
       - 美国04【测试】 3
       - 韩国01【测试】
       - 美国07【测试】 2
       - 美国04【CDN加速】
       - 美国07【CDN加速】
-      - 日本03【CDN加速】
+      - 日本03【CDN加速】 2
       - 美国03【测试】
       - 日本05【测试】
       - 日本05【测试】 2
       - 日本05【测试】 3
       - 美国03【CDN加速】
+      - 日本05【联通线路】
       - 美国07【测试】 3
       - 美国03【测试】 2
       - 韩国01【测试】 2
+      - 美国01【联通线路】
       - 美国01【测试】
       - _CN_中国
       - 美国06【联通线路】
@@ -178,8 +246,20 @@ proxy-groups:
       - 🎯 全球直连
       - "[SS] Relay 🇹🇼 Taiwan(ChatGPT) 02 TG:@nodpai"
       - 美国【付费推荐：https://v1.mk/vip】214
-      - 美国06【测试】
       - _CN_中国->🇸🇬_SG_新加坡
+      - 美国【付费推荐：https://v1.mk/vip】181
+      - 美国06【测试】
+      - 伯利兹【付费推荐：https://v1.mk/vip】179
+      - 中国【付费推荐：https://v1.mk/vip】73
+      - 日本05【CDN加速】
+      - 印度孟买JGW【直连】
+      - 美国04【联通线路】
+      - 美国06【测试】 2
+      - 美国07【联通线路】
+      - 美国03【联通线路】
+      - 日本03【测试】
+      - 印度【付费推荐：https://v1.mk/vip】152
+      - 美国06【CDN加速】
       - 伯利兹【付费推荐：https://v1.mk/vip】135
       - 美国04【测试】
       - 美国01【直连】
@@ -189,24 +269,29 @@ proxy-groups:
       - 日本01【CDN加速】
       - 韩国01【CDN加速】
       - 伯利兹【付费推荐：https://v1.mk/vip】23
+      - 日本03【CDN加速】
       - 日本02【直连】
+      - 美国06【CDN加速】 2
       - 美国04【测试】 2
       - 日本01【测试】 2
-      - 日本03【测试】
+      - 日本JGW-08【直连】
+      - 日本03【测试】 2
       - 美国04【测试】 3
       - 韩国01【测试】
       - 美国07【测试】 2
       - 美国04【CDN加速】
       - 美国07【CDN加速】
-      - 日本03【CDN加速】
+      - 日本03【CDN加速】 2
       - 美国03【测试】
       - 日本05【测试】
       - 日本05【测试】 2
       - 日本05【测试】 3
       - 美国03【CDN加速】
+      - 日本05【联通线路】
       - 美国07【测试】 3
       - 美国03【测试】 2
       - 韩国01【测试】 2
+      - 美国01【联通线路】
       - 美国01【测试】
       - _CN_中国
       - 美国06【联通线路】
@@ -222,8 +307,20 @@ proxy-groups:
       - 🔰 节点选择
       - "[SS] Relay 🇹🇼 Taiwan(ChatGPT) 02 TG:@nodpai"
       - 美国【付费推荐：https://v1.mk/vip】214
-      - 美国06【测试】
       - _CN_中国->🇸🇬_SG_新加坡
+      - 美国【付费推荐：https://v1.mk/vip】181
+      - 美国06【测试】
+      - 伯利兹【付费推荐：https://v1.mk/vip】179
+      - 中国【付费推荐：https://v1.mk/vip】73
+      - 日本05【CDN加速】
+      - 印度孟买JGW【直连】
+      - 美国04【联通线路】
+      - 美国06【测试】 2
+      - 美国07【联通线路】
+      - 美国03【联通线路】
+      - 日本03【测试】
+      - 印度【付费推荐：https://v1.mk/vip】152
+      - 美国06【CDN加速】
       - 伯利兹【付费推荐：https://v1.mk/vip】135
       - 美国04【测试】
       - 美国01【直连】
@@ -233,24 +330,29 @@ proxy-groups:
       - 日本01【CDN加速】
       - 韩国01【CDN加速】
       - 伯利兹【付费推荐：https://v1.mk/vip】23
+      - 日本03【CDN加速】
       - 日本02【直连】
+      - 美国06【CDN加速】 2
       - 美国04【测试】 2
       - 日本01【测试】 2
-      - 日本03【测试】
+      - 日本JGW-08【直连】
+      - 日本03【测试】 2
       - 美国04【测试】 3
       - 韩国01【测试】
       - 美国07【测试】 2
       - 美国04【CDN加速】
       - 美国07【CDN加速】
-      - 日本03【CDN加速】
+      - 日本03【CDN加速】 2
       - 美国03【测试】
       - 日本05【测试】
       - 日本05【测试】 2
       - 日本05【测试】 3
       - 美国03【CDN加速】
+      - 日本05【联通线路】
       - 美国07【测试】 3
       - 美国03【测试】 2
       - 韩国01【测试】 2
+      - 美国01【联通线路】
       - 美国01【测试】
       - _CN_中国
       - 美国06【联通线路】
@@ -261,8 +363,20 @@ proxy-groups:
       - 🎯 全球直连
       - "[SS] Relay 🇹🇼 Taiwan(ChatGPT) 02 TG:@nodpai"
       - 美国【付费推荐：https://v1.mk/vip】214
-      - 美国06【测试】
       - _CN_中国->🇸🇬_SG_新加坡
+      - 美国【付费推荐：https://v1.mk/vip】181
+      - 美国06【测试】
+      - 伯利兹【付费推荐：https://v1.mk/vip】179
+      - 中国【付费推荐：https://v1.mk/vip】73
+      - 日本05【CDN加速】
+      - 印度孟买JGW【直连】
+      - 美国04【联通线路】
+      - 美国06【测试】 2
+      - 美国07【联通线路】
+      - 美国03【联通线路】
+      - 日本03【测试】
+      - 印度【付费推荐：https://v1.mk/vip】152
+      - 美国06【CDN加速】
       - 伯利兹【付费推荐：https://v1.mk/vip】135
       - 美国04【测试】
       - 美国01【直连】
@@ -272,24 +386,29 @@ proxy-groups:
       - 日本01【CDN加速】
       - 韩国01【CDN加速】
       - 伯利兹【付费推荐：https://v1.mk/vip】23
+      - 日本03【CDN加速】
       - 日本02【直连】
+      - 美国06【CDN加速】 2
       - 美国04【测试】 2
       - 日本01【测试】 2
-      - 日本03【测试】
+      - 日本JGW-08【直连】
+      - 日本03【测试】 2
       - 美国04【测试】 3
       - 韩国01【测试】
       - 美国07【测试】 2
       - 美国04【CDN加速】
       - 美国07【CDN加速】
-      - 日本03【CDN加速】
+      - 日本03【CDN加速】 2
       - 美国03【测试】
       - 日本05【测试】
       - 日本05【测试】 2
       - 日本05【测试】 3
       - 美国03【CDN加速】
+      - 日本05【联通线路】
       - 美国07【测试】 3
       - 美国03【测试】 2
       - 韩国01【测试】 2
+      - 美国01【联通线路】
       - 美国01【测试】
       - _CN_中国
       - 美国06【联通线路】
@@ -301,8 +420,20 @@ proxy-groups:
       - ♻️ 自动选择
       - "[SS] Relay 🇹🇼 Taiwan(ChatGPT) 02 TG:@nodpai"
       - 美国【付费推荐：https://v1.mk/vip】214
-      - 美国06【测试】
       - _CN_中国->🇸🇬_SG_新加坡
+      - 美国【付费推荐：https://v1.mk/vip】181
+      - 美国06【测试】
+      - 伯利兹【付费推荐：https://v1.mk/vip】179
+      - 中国【付费推荐：https://v1.mk/vip】73
+      - 日本05【CDN加速】
+      - 印度孟买JGW【直连】
+      - 美国04【联通线路】
+      - 美国06【测试】 2
+      - 美国07【联通线路】
+      - 美国03【联通线路】
+      - 日本03【测试】
+      - 印度【付费推荐：https://v1.mk/vip】152
+      - 美国06【CDN加速】
       - 伯利兹【付费推荐：https://v1.mk/vip】135
       - 美国04【测试】
       - 美国01【直连】
@@ -312,24 +443,29 @@ proxy-groups:
       - 日本01【CDN加速】
       - 韩国01【CDN加速】
       - 伯利兹【付费推荐：https://v1.mk/vip】23
+      - 日本03【CDN加速】
       - 日本02【直连】
+      - 美国06【CDN加速】 2
       - 美国04【测试】 2
       - 日本01【测试】 2
-      - 日本03【测试】
+      - 日本JGW-08【直连】
+      - 日本03【测试】 2
       - 美国04【测试】 3
       - 韩国01【测试】
       - 美国07【测试】 2
       - 美国04【CDN加速】
       - 美国07【CDN加速】
-      - 日本03【CDN加速】
+      - 日本03【CDN加速】 2
       - 美国03【测试】
       - 日本05【测试】
       - 日本05【测试】 2
       - 日本05【测试】 3
       - 美国03【CDN加速】
+      - 日本05【联通线路】
       - 美国07【测试】 3
       - 美国03【测试】 2
       - 韩国01【测试】 2
+      - 美国01【联通线路】
       - 美国01【测试】
       - _CN_中国
       - 美国06【联通线路】
@@ -350,8 +486,20 @@ proxy-groups:
       - ♻️ 自动选择
       - "[SS] Relay 🇹🇼 Taiwan(ChatGPT) 02 TG:@nodpai"
       - 美国【付费推荐：https://v1.mk/vip】214
-      - 美国06【测试】
       - _CN_中国->🇸🇬_SG_新加坡
+      - 美国【付费推荐：https://v1.mk/vip】181
+      - 美国06【测试】
+      - 伯利兹【付费推荐：https://v1.mk/vip】179
+      - 中国【付费推荐：https://v1.mk/vip】73
+      - 日本05【CDN加速】
+      - 印度孟买JGW【直连】
+      - 美国04【联通线路】
+      - 美国06【测试】 2
+      - 美国07【联通线路】
+      - 美国03【联通线路】
+      - 日本03【测试】
+      - 印度【付费推荐：https://v1.mk/vip】152
+      - 美国06【CDN加速】
       - 伯利兹【付费推荐：https://v1.mk/vip】135
       - 美国04【测试】
       - 美国01【直连】
@@ -361,24 +509,29 @@ proxy-groups:
       - 日本01【CDN加速】
       - 韩国01【CDN加速】
       - 伯利兹【付费推荐：https://v1.mk/vip】23
+      - 日本03【CDN加速】
       - 日本02【直连】
+      - 美国06【CDN加速】 2
       - 美国04【测试】 2
       - 日本01【测试】 2
-      - 日本03【测试】
+      - 日本JGW-08【直连】
+      - 日本03【测试】 2
       - 美国04【测试】 3
       - 韩国01【测试】
       - 美国07【测试】 2
       - 美国04【CDN加速】
       - 美国07【CDN加速】
-      - 日本03【CDN加速】
+      - 日本03【CDN加速】 2
       - 美国03【测试】
       - 日本05【测试】
       - 日本05【测试】 2
       - 日本05【测试】 3
       - 美国03【CDN加速】
+      - 日本05【联通线路】
       - 美国07【测试】 3
       - 美国03【测试】 2
       - 韩国01【测试】 2
+      - 美国01【联通线路】
       - 美国01【测试】
       - _CN_中国
       - 美国06【联通线路】
