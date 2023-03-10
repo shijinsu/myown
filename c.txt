@@ -12,7 +12,6 @@ proxies:
   - {name: 日本01【测试】, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 10cacc93-34b3-4fb9-8a92-b0224e72db4e, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp01.cctvvip.ml}, udp: true}
   - {name: 美国04【测试】, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 1123edae-1aa1-4cac-ad3e-7f2ea5f53eed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us04.cctvvip.ml}, udp: true}
   - {name: 美国07【测试】, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 17c0415c-2557-451d-f017-0486f47dc329, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us07.cctvvip.ml}, udp: true}
-  - {name: _CN_中国, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 日本JGW-08【直连】 2, server: 141.147.153.244, port: 41545, type: vmess, uuid: d47d7135-0954-46ab-a190-17b6c8630a85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 日本03【测试】, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 228a73ee-a5a3-4dce-a832-5c3f60841032, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp03.cctvvip.ml}, udp: true}
   - {name: 日本01【联通线路】, server: fdcdn03-09.cctvvip.ml, port: 443, type: vmess, uuid: 10cacc93-34b3-4fb9-8a92-b0224e72db4e, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp01.cctvvip.ml}, udp: true}
@@ -30,7 +29,6 @@ proxies:
   - {name: 美国03【测试】, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 1aefde30-51e7-4bbe-a8f6-9c1834b66c8d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us03.cctvvip.ml}, udp: true}
   - {name: 韩国01【联通线路】, server: fdcdn03-09.cctvvip.ml, port: 443, type: vmess, uuid: 1f2251e1-8fe3-416b-f670-af781dedb2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: kr01.cctvvip.ml}, udp: true}
   - {name: 美国【付费推荐：https://v1.mk/vip】200, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Seattle.v2ray.online}, udp: true}
-  - {name: _CN_中国 2, server: 47.104.237.32, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 美国03【测试】 2, server: cf.fovi.tk, port: 443, type: vmess, uuid: 1aefde30-51e7-4bbe-a8f6-9c1834b66c8d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us03.cctvvip.ml}, udp: true}
   - {name: 美国03【三网通】, server: cdn03-09.cctvvip.ml, port: 443, type: vmess, uuid: 1aefde30-51e7-4bbe-a8f6-9c1834b66c8d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us03.cctvvip.ml}, udp: true}
   - {name: 美国06【测试】, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 12177089-0502-48ab-f493-5e0f663a700c, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us06.cctvvip.ml}, udp: true}
@@ -49,7 +47,6 @@ proxy-groups:
       - 日本01【测试】
       - 美国04【测试】
       - 美国07【测试】
-      - _CN_中国
       - 日本JGW-08【直连】 2
       - 日本03【测试】
       - 日本01【联通线路】
@@ -67,7 +64,6 @@ proxy-groups:
       - 美国03【测试】
       - 韩国01【联通线路】
       - 美国【付费推荐：https://v1.mk/vip】200
-      - _CN_中国 2
       - 美国03【测试】 2
       - 美国03【三网通】
       - 美国06【测试】
@@ -85,7 +81,6 @@ proxy-groups:
       - 日本01【测试】
       - 美国04【测试】
       - 美国07【测试】
-      - _CN_中国
       - 日本JGW-08【直连】 2
       - 日本03【测试】
       - 日本01【联通线路】
@@ -103,7 +98,6 @@ proxy-groups:
       - 美国03【测试】
       - 韩国01【联通线路】
       - 美国【付费推荐：https://v1.mk/vip】200
-      - _CN_中国 2
       - 美国03【测试】 2
       - 美国03【三网通】
       - 美国06【测试】
@@ -122,7 +116,6 @@ proxy-groups:
       - 日本01【测试】
       - 美国04【测试】
       - 美国07【测试】
-      - _CN_中国
       - 日本JGW-08【直连】 2
       - 日本03【测试】
       - 日本01【联通线路】
@@ -140,7 +133,6 @@ proxy-groups:
       - 美国03【测试】
       - 韩国01【联通线路】
       - 美国【付费推荐：https://v1.mk/vip】200
-      - _CN_中国 2
       - 美国03【测试】 2
       - 美国03【三网通】
       - 美国06【测试】
@@ -171,7 +163,6 @@ proxy-groups:
       - 日本01【测试】
       - 美国04【测试】
       - 美国07【测试】
-      - _CN_中国
       - 日本JGW-08【直连】 2
       - 日本03【测试】
       - 日本01【联通线路】
@@ -189,7 +180,6 @@ proxy-groups:
       - 美国03【测试】
       - 韩国01【联通线路】
       - 美国【付费推荐：https://v1.mk/vip】200
-      - _CN_中国 2
       - 美国03【测试】 2
       - 美国03【三网通】
       - 美国06【测试】
@@ -212,7 +202,6 @@ proxy-groups:
       - 日本01【测试】
       - 美国04【测试】
       - 美国07【测试】
-      - _CN_中国
       - 日本JGW-08【直连】 2
       - 日本03【测试】
       - 日本01【联通线路】
@@ -230,7 +219,6 @@ proxy-groups:
       - 美国03【测试】
       - 韩国01【联通线路】
       - 美国【付费推荐：https://v1.mk/vip】200
-      - _CN_中国 2
       - 美国03【测试】 2
       - 美国03【三网通】
       - 美国06【测试】
@@ -248,7 +236,6 @@ proxy-groups:
       - 日本01【测试】
       - 美国04【测试】
       - 美国07【测试】
-      - _CN_中国
       - 日本JGW-08【直连】 2
       - 日本03【测试】
       - 日本01【联通线路】
@@ -266,7 +253,6 @@ proxy-groups:
       - 美国03【测试】
       - 韩国01【联通线路】
       - 美国【付费推荐：https://v1.mk/vip】200
-      - _CN_中国 2
       - 美国03【测试】 2
       - 美国03【三网通】
       - 美国06【测试】
@@ -285,7 +271,6 @@ proxy-groups:
       - 日本01【测试】
       - 美国04【测试】
       - 美国07【测试】
-      - _CN_中国
       - 日本JGW-08【直连】 2
       - 日本03【测试】
       - 日本01【联通线路】
@@ -303,7 +288,6 @@ proxy-groups:
       - 美国03【测试】
       - 韩国01【联通线路】
       - 美国【付费推荐：https://v1.mk/vip】200
-      - _CN_中国 2
       - 美国03【测试】 2
       - 美国03【三网通】
       - 美国06【测试】
@@ -331,7 +315,6 @@ proxy-groups:
       - 日本01【测试】
       - 美国04【测试】
       - 美国07【测试】
-      - _CN_中国
       - 日本JGW-08【直连】 2
       - 日本03【测试】
       - 日本01【联通线路】
@@ -349,7 +332,6 @@ proxy-groups:
       - 美国03【测试】
       - 韩国01【联通线路】
       - 美国【付费推荐：https://v1.mk/vip】200
-      - _CN_中国 2
       - 美国03【测试】 2
       - 美国03【三网通】
       - 美国06【测试】
