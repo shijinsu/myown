@@ -5,16 +5,15 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _NL_荷兰, server: 185.212.200.76, port: 443, type: trojan, password: Sp3eDVp, skip-cert-verify: true, udp: true}
+  - {name: 美国01【直连】, server: us01.wxfz.ga, port: 443, type: vmess, uuid: 143017fa-b88b-47bc-c36f-8fc9bbc4050e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us01.wxfz.ga}, udp: true}
   - {name: 日本02【直连】, server: jp02.wxfz.ga, port: 443, type: vmess, uuid: 16987709-af08-428c-eb00-a26efe1b8204, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp02.wxfz.ga}, udp: true}
   - {name: 英国01【直连】, server: uk01.wxfz.ga, port: 443, type: vmess, uuid: 111b3310-1e54-445c-c608-7850f47edd1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: uk01.wxfz.ga}, udp: true}
-  - {name: 美国【付费推荐：https://v1.mk/vip】164, server: vde2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vde2.0bad.com}, udp: true}
-  - {name: 巴拿马【付费推荐：https://v1.mk/vip】222, server: 185.143.220.25, port: 443, type: vmess, uuid: f28e354e-c2d1-4983-9b07-5acaf1b3b3e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /6e9EtZ2dL, ws-headers: {Host: dengxin.one}, udp: true}
-  - {name: Relay_🇹🇼TW-🇹🇼TW_141 | 5.41Mb, server: hinet1261.gfwisbest.xyz, port: 224, type: vmess, uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 印度01【直连】, server: yd01.wxfz.ga, port: 443, type: vmess, uuid: 11a2f925-d159-4ef4-80be-b095f18da9a5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: yd01.wxfz.ga}, udp: true}
-  - {name: 日本JGW-08【直连】, server: 141.147.153.244, port: 41545, type: vmess, uuid: d47d7135-0954-46ab-a190-17b6c8630a85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国【付费推荐：https://v1.mk/vip】138_1, server: ming2.kiwireich.com, port: 443, type: vmess, uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: ming2.kiwireich.com}, udp: true}
+  - {name: 美国【付费推荐：https://v1.mk/vip】174, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 27509613-bbd5-403a-868c-8022d36aa565, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/pq/nl1?ed=2048", ws-headers: {Host: nl1.pqjc.buzz}, udp: true}
   - {name: 印度孟买JGW【直连】, server: 140.238.224.7, port: 59073, type: vmess, uuid: 96cd23ea-fba0-4e17-a34c-cc629aab742a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 中国【付费推荐：https://v1.mk/vip】202, server: oss-cn-shanghai.westdatacloud.top, port: 20048, type: trojan, password: 626351FA-3CA6-8118-FADF-CCDBCD620871, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: 印度孟买JGW【直连】 2, server: 140.238.224.7, port: 59073, type: vmess, uuid: 96cd23ea-fba0-4e17-a34c-cc629aab742a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 韩国01【三网通】, server: cdn03-09.cctvvip.ml, port: 443, type: vmess, uuid: 112251e1-8fe3-416b-f670-af781dedb2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: kr01.cctvvip.ml}, udp: true}
   - {name: 美国01【三网通】, server: cdn03-09.cctvvip.ml, port: 443, type: vmess, uuid: 118fcad6-32cd-4bbb-9247-421878e0c7bd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us01.cctvvip.ml}, udp: true}
   - {name: 美国03【三网通】, server: cdn03-09.cctvvip.ml, port: 443, type: vmess, uuid: 11efde30-51e7-4bbe-a8f6-9c1834b66c8d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us03.cctvvip.ml}, udp: true}
@@ -39,16 +38,15 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _NL_荷兰
+      - 美国01【直连】
       - 日本02【直连】
       - 英国01【直连】
-      - 美国【付费推荐：https://v1.mk/vip】164
-      - 巴拿马【付费推荐：https://v1.mk/vip】222
-      - Relay_🇹🇼TW-🇹🇼TW_141 | 5.41Mb
       - 印度01【直连】
-      - 日本JGW-08【直连】
+      - 美国【付费推荐：https://v1.mk/vip】138_1
+      - 美国【付费推荐：https://v1.mk/vip】174
       - 印度孟买JGW【直连】
       - 中国【付费推荐：https://v1.mk/vip】202
+      - 印度孟买JGW【直连】 2
       - 韩国01【三网通】
       - 美国01【三网通】
       - 美国03【三网通】
@@ -72,16 +70,15 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _NL_荷兰
+      - 美国01【直连】
       - 日本02【直连】
       - 英国01【直连】
-      - 美国【付费推荐：https://v1.mk/vip】164
-      - 巴拿马【付费推荐：https://v1.mk/vip】222
-      - Relay_🇹🇼TW-🇹🇼TW_141 | 5.41Mb
       - 印度01【直连】
-      - 日本JGW-08【直连】
+      - 美国【付费推荐：https://v1.mk/vip】138_1
+      - 美国【付费推荐：https://v1.mk/vip】174
       - 印度孟买JGW【直连】
       - 中国【付费推荐：https://v1.mk/vip】202
+      - 印度孟买JGW【直连】 2
       - 韩国01【三网通】
       - 美国01【三网通】
       - 美国03【三网通】
@@ -106,16 +103,15 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _NL_荷兰
+      - 美国01【直连】
       - 日本02【直连】
       - 英国01【直连】
-      - 美国【付费推荐：https://v1.mk/vip】164
-      - 巴拿马【付费推荐：https://v1.mk/vip】222
-      - Relay_🇹🇼TW-🇹🇼TW_141 | 5.41Mb
       - 印度01【直连】
-      - 日本JGW-08【直连】
+      - 美国【付费推荐：https://v1.mk/vip】138_1
+      - 美国【付费推荐：https://v1.mk/vip】174
       - 印度孟买JGW【直连】
       - 中国【付费推荐：https://v1.mk/vip】202
+      - 印度孟买JGW【直连】 2
       - 韩国01【三网通】
       - 美国01【三网通】
       - 美国03【三网通】
@@ -152,16 +148,15 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _NL_荷兰
+      - 美国01【直连】
       - 日本02【直连】
       - 英国01【直连】
-      - 美国【付费推荐：https://v1.mk/vip】164
-      - 巴拿马【付费推荐：https://v1.mk/vip】222
-      - Relay_🇹🇼TW-🇹🇼TW_141 | 5.41Mb
       - 印度01【直连】
-      - 日本JGW-08【直连】
+      - 美国【付费推荐：https://v1.mk/vip】138_1
+      - 美国【付费推荐：https://v1.mk/vip】174
       - 印度孟买JGW【直连】
       - 中国【付费推荐：https://v1.mk/vip】202
+      - 印度孟买JGW【直连】 2
       - 韩国01【三网通】
       - 美国01【三网通】
       - 美国03【三网通】
@@ -190,16 +185,15 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _NL_荷兰
+      - 美国01【直连】
       - 日本02【直连】
       - 英国01【直连】
-      - 美国【付费推荐：https://v1.mk/vip】164
-      - 巴拿马【付费推荐：https://v1.mk/vip】222
-      - Relay_🇹🇼TW-🇹🇼TW_141 | 5.41Mb
       - 印度01【直连】
-      - 日本JGW-08【直连】
+      - 美国【付费推荐：https://v1.mk/vip】138_1
+      - 美国【付费推荐：https://v1.mk/vip】174
       - 印度孟买JGW【直连】
       - 中国【付费推荐：https://v1.mk/vip】202
+      - 印度孟买JGW【直连】 2
       - 韩国01【三网通】
       - 美国01【三网通】
       - 美国03【三网通】
@@ -223,16 +217,15 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _NL_荷兰
+      - 美国01【直连】
       - 日本02【直连】
       - 英国01【直连】
-      - 美国【付费推荐：https://v1.mk/vip】164
-      - 巴拿马【付费推荐：https://v1.mk/vip】222
-      - Relay_🇹🇼TW-🇹🇼TW_141 | 5.41Mb
       - 印度01【直连】
-      - 日本JGW-08【直连】
+      - 美国【付费推荐：https://v1.mk/vip】138_1
+      - 美国【付费推荐：https://v1.mk/vip】174
       - 印度孟买JGW【直连】
       - 中国【付费推荐：https://v1.mk/vip】202
+      - 印度孟买JGW【直连】 2
       - 韩国01【三网通】
       - 美国01【三网通】
       - 美国03【三网通】
@@ -257,16 +250,15 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _NL_荷兰
+      - 美国01【直连】
       - 日本02【直连】
       - 英国01【直连】
-      - 美国【付费推荐：https://v1.mk/vip】164
-      - 巴拿马【付费推荐：https://v1.mk/vip】222
-      - Relay_🇹🇼TW-🇹🇼TW_141 | 5.41Mb
       - 印度01【直连】
-      - 日本JGW-08【直连】
+      - 美国【付费推荐：https://v1.mk/vip】138_1
+      - 美国【付费推荐：https://v1.mk/vip】174
       - 印度孟买JGW【直连】
       - 中国【付费推荐：https://v1.mk/vip】202
+      - 印度孟买JGW【直连】 2
       - 韩国01【三网通】
       - 美国01【三网通】
       - 美国03【三网通】
@@ -300,16 +292,15 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _NL_荷兰
+      - 美国01【直连】
       - 日本02【直连】
       - 英国01【直连】
-      - 美国【付费推荐：https://v1.mk/vip】164
-      - 巴拿马【付费推荐：https://v1.mk/vip】222
-      - Relay_🇹🇼TW-🇹🇼TW_141 | 5.41Mb
       - 印度01【直连】
-      - 日本JGW-08【直连】
+      - 美国【付费推荐：https://v1.mk/vip】138_1
+      - 美国【付费推荐：https://v1.mk/vip】174
       - 印度孟买JGW【直连】
       - 中国【付费推荐：https://v1.mk/vip】202
+      - 印度孟买JGW【直连】 2
       - 韩国01【三网通】
       - 美国01【三网通】
       - 美国03【三网通】
