@@ -5,131 +5,251 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 日本02【电信优选】, server: telecom.cfcdn.giize.com, port: 443, type: vmess, uuid: 1110cfbd-71dc-42b0-84f2-53cd7fe5645b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp02.cctvvip.ml}, udp: true}
-  - {name: 日本01【电信优选】, server: telecom.cfcdn.giize.com, port: 443, type: vmess, uuid: 1111cc93-34b3-4fb9-8a92-b0224e72db4e, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp01.cctvvip.ml}, udp: true}
-  - {name: 日本06【电信优选】, server: telecom.cfcdn.giize.com, port: 443, type: vmess, uuid: 1fc3627f-31e8-4695-dfbd-34076e2f1f5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp06.cctvvip.ml}, udp: true}
-  - {name: 日本01【联通优选】, server: unicom.cfcdn.giize.com, port: 443, type: vmess, uuid: 1111cc93-34b3-4fb9-8a92-b0224e72db4e, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp01.cctvvip.ml}, udp: true}
-  - {name: 日本02【联通优选】, server: unicom.cfcdn.giize.com, port: 443, type: vmess, uuid: 1110cfbd-71dc-42b0-84f2-53cd7fe5645b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp02.cctvvip.ml}, udp: true}
-  - {name: 日本06【联通优选】, server: unicom.cfcdn.giize.com, port: 443, type: vmess, uuid: 1fc3627f-31e8-4695-dfbd-34076e2f1f5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp06.cctvvip.ml}, udp: true}
-  - {name: 韩国02【电信优选】, server: telecom.cfcdn.giize.com, port: 443, type: vmess, uuid: 113405d4-2c75-4169-b52b-806812c45816, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: kr02.cctvvip.ml}, udp: true}
-  - {name: 德国01【电信优选】, server: telecom.cfcdn.giize.com, port: 443, type: vmess, uuid: 13c7db38-b00f-49ca-bd9e-60f4f1f008cd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: de-01.cctvvip.ml}, udp: true}
-  - {name: 韩国03【联通优选】, server: unicom.cfcdn.giize.com, port: 443, type: vmess, uuid: 111e621b-150c-4165-fd01-6c2c06147f11, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: kr03.cctvvip.ml}, udp: true}
-  - {name: 日本03【直连】, server: jp03.cctvvip.ml, port: 80, type: vmess, uuid: 1b5d6145-0b49-4d0b-a9b6-2294320afac4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/cctv13.m3u8?ed=2048", ws-headers: {Host: jp03.cctvvip.ml}, udp: true}
-  - {name: 韩国02【联通优选】, server: unicom.cfcdn.giize.com, port: 443, type: vmess, uuid: 113405d4-2c75-4169-b52b-806812c45816, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: kr02.cctvvip.ml}, udp: true}
-  - {name: 美国 V2CROSS.COM, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true, udp: true}
-  - {name: 韩国03【电信优选】, server: telecom.cfcdn.giize.com, port: 443, type: vmess, uuid: 111e621b-150c-4165-fd01-6c2c06147f11, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: kr03.cctvvip.ml}, udp: true}
-  - {name: 日本05【直连】, server: jp05.cctvvip.ml, port: 80, type: vmess, uuid: 111116dd-1118-457c-9ddf-453996cd7920, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/cctv13.m3u8?ed=2048", ws-headers: {Host: jp05.cctvvip.ml}, udp: true}
-  - {name: 泰国01【联通优选】, server: unicom.cfcdn.giize.com, port: 443, type: vmess, uuid: 11da9dbe-c3e5-437f-d67a-173d93e6984a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: tai01.cctvvip.ml}, udp: true}
-  - {name: 泰国01【电信优选】, server: telecom.cfcdn.giize.com, port: 443, type: vmess, uuid: 11da9dbe-c3e5-437f-d67a-173d93e6984a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: tai01.cctvvip.ml}, udp: true}
-  - {name: 瑞士 V2CROSS.COM, server: 195.15.243.26, port: 443, type: trojan, password: !<str> 4478, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯 V2CROSS.COM, server: 185.143.220.25, port: 443, type: vmess, uuid: f28e354e-c2d1-4983-9b07-5acaf1b3b3e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /6e9EtZ2dL, ws-headers: {Host: 185.143.220.25}, udp: true}
-  - {name: 美国05【联通优选】, server: unicom.cfcdn.giize.com, port: 443, type: vmess, uuid: 1111cad6-32cd-4bbb-9247-421878e0c7bd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us05.cctvvip.ml}, udp: true}
-  - {name: 英国【全局可用GPT】, server: uk01.wxfz.ga, port: 443, type: vmess, uuid: 11111111-1e54-445c-c608-7850f47edd1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/cctv13.m3u8?ed=2048", ws-headers: {Host: uk01.wxfz.ga}, udp: true}
-  - {name: 美国03【联通优选】, server: unicom.cfcdn.giize.com, port: 443, type: vmess, uuid: 1111de30-51e7-4bbe-a8f6-9c1834b66c8d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us03.cctvvip.ml}, udp: true}
-  - {name: 美国10【联通优选】, server: unicom.cfcdn.giize.com, port: 443, type: vmess, uuid: 153e8e7b-1b28-4d1a-c815-f9fb7faecf86, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us10.cctvvip.ml}, udp: true}
-  - {name: 美国05【电信优选】, server: telecom.cfcdn.giize.com, port: 443, type: vmess, uuid: 1111cad6-32cd-4bbb-9247-421878e0c7bd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us05.cctvvip.ml}, udp: true}
-  - {name: 美国10【电信优选】, server: telecom.cfcdn.giize.com, port: 443, type: vmess, uuid: 153e8e7b-1b28-4d1a-c815-f9fb7faecf86, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us10.cctvvip.ml}, udp: true}
-  - {name: 美国03【电信优选】, server: telecom.cfcdn.giize.com, port: 443, type: vmess, uuid: 1111de30-51e7-4bbe-a8f6-9c1834b66c8d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us03.cctvvip.ml}, udp: true}
-  - {name: 美国06【电信优选】, server: telecom.cfcdn.giize.com, port: 443, type: vmess, uuid: 11111089-0502-48ab-f493-5e0f663a700c, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us06.cctvvip.ml}, udp: true}
-  - {name: 美国07【直连】, server: us07.cctvvip.ml, port: 80, type: vmess, uuid: 1111415c-2557-451d-f017-0486f47dc329, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/cctv13.m3u8?ed=2048", ws-headers: {Host: us07.cctvvip.ml}, udp: true}
+  - {name: 泰国01【联通优选】, server: unicom.cctvvip.ml, port: 443, type: vmess, uuid: 111a9dbe-c3e5-437f-d67a-173d93e6984a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: tai01.cctvvip.ml}, udp: true}
+  - {name: 美国03【联通优选】, server: unicom.cctvvip.ml, port: 443, type: vmess, uuid: 11111e30-51e7-4bbe-a8f6-9c1834b66c8d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us03.cctvvip.ml}, udp: true}
+  - {name: 美国05【联通优选】, server: unicom.cctvvip.ml, port: 443, type: vmess, uuid: 11111ad6-32cd-4bbb-9247-421878e0c7bd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us05.cctvvip.ml}, udp: true}
+  - {name: 美国06【联通优选】, server: unicom.cctvvip.ml, port: 443, type: vmess, uuid: 11111189-0502-48ab-f493-5e0f663a700c, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us06.cctvvip.ml}, udp: true}
+  - {name: 美国10【联通优选】, server: unicom.cctvvip.ml, port: 443, type: vmess, uuid: 113e8e7b-1b28-4d1a-c815-f9fb7faecf86, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us10.cctvvip.ml}, udp: true}
+  - {name: 德国01【联通优选】, server: unicom.cctvvip.ml, port: 443, type: vmess, uuid: 13c7db38-b00f-49ca-bd9e-60f4f1f008cd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: de-01-5-2.cctvvip.ml}, udp: true}
+  - {name: 韩国02【联通优选】, server: unicom.cctvvip.ml, port: 443, type: vmess, uuid: 111405d4-2c75-4169-b52b-806812c45816, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: kr02.cctvvip.ml}, udp: true}
+  - {name: 韩国03【联通优选】, server: unicom.cctvvip.ml, port: 443, type: vmess, uuid: 1111621b-150c-4165-fd01-6c2c06147f11, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: kr03.cctvvip.ml}, udp: true}
+  - {name: 日本01【联通优选】, server: unicom.cctvvip.ml, port: 443, type: vmess, uuid: 11111c93-34b3-4fb9-8a92-b0224e72db4e, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp01.cctvvip.ml}, udp: true}
+  - {name: 日本02【联通优选】, server: unicom.cctvvip.ml, port: 443, type: vmess, uuid: 1111cfbd-71dc-42b0-84f2-53cd7fe5645b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp02.cctvvip.ml}, udp: true}
+  - {name: 日本06【联通优选】, server: unicom.cctvvip.ml, port: 443, type: vmess, uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp06.cctvvip.ml}, udp: true}
+  - {name: 泰国01【电信优选】, server: telecom.cctvvip.ml, port: 443, type: vmess, uuid: 111a9dbe-c3e5-437f-d67a-173d93e6984a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: tai01.cctvvip.ml}, udp: true}
+  - {name: 美国03【电信优选】, server: telecom.cctvvip.ml, port: 443, type: vmess, uuid: 11111e30-51e7-4bbe-a8f6-9c1834b66c8d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us03.cctvvip.ml}, udp: true}
+  - {name: 美国05【电信优选】, server: telecom.cctvvip.ml, port: 443, type: vmess, uuid: 11111ad6-32cd-4bbb-9247-421878e0c7bd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us05.cctvvip.ml}, udp: true}
+  - {name: 美国06【电信优选】, server: telecom.cctvvip.ml, port: 443, type: vmess, uuid: 11111189-0502-48ab-f493-5e0f663a700c, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us06.cctvvip.ml}, udp: true}
+  - {name: 美国10【电信优选】, server: telecom.cctvvip.ml, port: 443, type: vmess, uuid: 113e8e7b-1b28-4d1a-c815-f9fb7faecf86, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us10.cctvvip.ml}, udp: true}
+  - {name: 德国01【电信优选】, server: telecom.cctvvip.ml, port: 443, type: vmess, uuid: 13c7db38-b00f-49ca-bd9e-60f4f1f008cd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: de-01-5-2.cctvvip.ml}, udp: true}
+  - {name: 韩国02【电信优选】, server: telecom.cctvvip.ml, port: 443, type: vmess, uuid: 111405d4-2c75-4169-b52b-806812c45816, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: kr02.cctvvip.ml}, udp: true}
+  - {name: 韩国03【电信优选】, server: telecom.cctvvip.ml, port: 443, type: vmess, uuid: 1111621b-150c-4165-fd01-6c2c06147f11, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: kr03.cctvvip.ml}, udp: true}
+  - {name: 日本01【电信优选】, server: telecom.cctvvip.ml, port: 443, type: vmess, uuid: 11111c93-34b3-4fb9-8a92-b0224e72db4e, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp01.cctvvip.ml}, udp: true}
+  - {name: 日本02【电信优选】, server: telecom.cctvvip.ml, port: 443, type: vmess, uuid: 1111cfbd-71dc-42b0-84f2-53cd7fe5645b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp02.cctvvip.ml}, udp: true}
+  - {name: 日本06【电信优选】, server: telecom.cctvvip.ml, port: 443, type: vmess, uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp06.cctvvip.ml}, udp: true}
+  - {name: 泰国01【移动优选】, server: mobile.cctvvip.ml, port: 443, type: vmess, uuid: 111a9dbe-c3e5-437f-d67a-173d93e6984a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: tai01.cctvvip.ml}, udp: true}
+  - {name: 美国03【移动优选】, server: mobile.cctvvip.ml, port: 443, type: vmess, uuid: 11111e30-51e7-4bbe-a8f6-9c1834b66c8d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us03.cctvvip.ml}, udp: true}
+  - {name: 美国05【移动优选】, server: mobile.cctvvip.ml, port: 443, type: vmess, uuid: 11111ad6-32cd-4bbb-9247-421878e0c7bd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us05.cctvvip.ml}, udp: true}
+  - {name: 美国06【移动优选】, server: mobile.cctvvip.ml, port: 443, type: vmess, uuid: 11111189-0502-48ab-f493-5e0f663a700c, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us06.cctvvip.ml}, udp: true}
+  - {name: 美国10【移动优选】, server: mobile.cctvvip.ml, port: 443, type: vmess, uuid: 113e8e7b-1b28-4d1a-c815-f9fb7faecf86, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us10.cctvvip.ml}, udp: true}
+  - {name: 德国01【移动优选】, server: mobile.cctvvip.ml, port: 443, type: vmess, uuid: 13c7db38-b00f-49ca-bd9e-60f4f1f008cd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: de-01-5-2.cctvvip.ml}, udp: true}
+  - {name: 韩国02【移动优选】, server: mobile.cctvvip.ml, port: 443, type: vmess, uuid: 111405d4-2c75-4169-b52b-806812c45816, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: kr02.cctvvip.ml}, udp: true}
+  - {name: 韩国03【移动优选】, server: mobile.cctvvip.ml, port: 443, type: vmess, uuid: 1111621b-150c-4165-fd01-6c2c06147f11, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: kr03.cctvvip.ml}, udp: true}
+  - {name: 日本01【移动优选】, server: mobile.cctvvip.ml, port: 443, type: vmess, uuid: 11111c93-34b3-4fb9-8a92-b0224e72db4e, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp01.cctvvip.ml}, udp: true}
+  - {name: 日本02【移动优选】, server: mobile.cctvvip.ml, port: 443, type: vmess, uuid: 1111cfbd-71dc-42b0-84f2-53cd7fe5645b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp02.cctvvip.ml}, udp: true}
+  - {name: 日本06【移动优选】, server: mobile.cctvvip.ml, port: 443, type: vmess, uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp06.cctvvip.ml}, udp: true}
+  - {name: 日本03【直连】, server: jp03.cctvvip.ml, port: 80, type: vmess, uuid: 115d6145-0b49-4d0b-a9b6-2294320afac4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/cctv13.m3u8?ed=2048", ws-headers: {Host: jp03.cctvvip.ml}, udp: true}
+  - {name: 日本05【直连】, server: jp05.cctvvip.ml, port: 80, type: vmess, uuid: 111111dd-1118-457c-9ddf-453996cd7920, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/cctv13.m3u8?ed=2048", ws-headers: {Host: jp05.cctvvip.ml}, udp: true}
+  - {name: 美国07【直连】, server: us07.cctvvip.ml, port: 80, type: vmess, uuid: 1111115c-2557-451d-f017-0486f47dc329, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/cctv13.m3u8?ed=2048", ws-headers: {Host: us07.cctvvip.ml}, udp: true}
+  - {name: 英国【全局可用GPT】, server: uk01.wxfz.ga, port: 443, type: vmess, uuid: 11111111-1154-445c-c608-7850f47edd1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/cctv13.m3u8?ed=2048", ws-headers: {Host: uk01.wxfz.ga}, udp: true}
+  - {name: 泰国01【CF优选】, server: cdn.yuntujisu.ml, port: 443, type: vmess, uuid: 111a9dbe-c3e5-437f-d67a-173d93e6984a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: tai01.cctvvip.ml}, udp: true}
+  - {name: 美国03【CF优选】, server: cdn.yuntujisu.ml, port: 443, type: vmess, uuid: 11111e30-51e7-4bbe-a8f6-9c1834b66c8d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us03.cctvvip.ml}, udp: true}
+  - {name: 美国05【CF优选】, server: cdn.yuntujisu.ml, port: 443, type: vmess, uuid: 11111ad6-32cd-4bbb-9247-421878e0c7bd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us05.cctvvip.ml}, udp: true}
+  - {name: 美国06【CF优选】, server: cdn.yuntujisu.ml, port: 443, type: vmess, uuid: 11111189-0502-48ab-f493-5e0f663a700c, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us06.cctvvip.ml}, udp: true}
+  - {name: 美国10【CF优选】, server: cdn.yuntujisu.ml, port: 443, type: vmess, uuid: 113e8e7b-1b28-4d1a-c815-f9fb7faecf86, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us10.cctvvip.ml}, udp: true}
+  - {name: 德国01【CF优选】, server: cdn.yuntujisu.ml, port: 443, type: vmess, uuid: 13c7db38-b00f-49ca-bd9e-60f4f1f008cd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: de-01-5-2.cctvvip.ml}, udp: true}
+  - {name: 韩国02【CF优选】, server: cdn.yuntujisu.ml, port: 443, type: vmess, uuid: 111405d4-2c75-4169-b52b-806812c45816, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: kr02.cctvvip.ml}, udp: true}
+  - {name: 韩国03【CF优选】, server: cdn.yuntujisu.ml, port: 443, type: vmess, uuid: 1111621b-150c-4165-fd01-6c2c06147f11, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: kr03.cctvvip.ml}, udp: true}
+  - {name: 日本01【CF优选】, server: cdn.yuntujisu.ml, port: 443, type: vmess, uuid: 11111c93-34b3-4fb9-8a92-b0224e72db4e, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp01.cctvvip.ml}, udp: true}
+  - {name: 日本02【CF优选】, server: cdn.yuntujisu.ml, port: 443, type: vmess, uuid: 1111cfbd-71dc-42b0-84f2-53cd7fe5645b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp02.cctvvip.ml}, udp: true}
+  - {name: 泰国01【CF优选YX】, server: yx.timeswath.uk, port: 443, type: vmess, uuid: 111a9dbe-c3e5-437f-d67a-173d93e6984a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: tai01.cctvvip.ml}, udp: true}
+  - {name: 美国03【CF优选YX】, server: yx.timeswath.uk, port: 443, type: vmess, uuid: 11111e30-51e7-4bbe-a8f6-9c1834b66c8d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us03.cctvvip.ml}, udp: true}
+  - {name: 美国05【CF优选YX】, server: yx.timeswath.uk, port: 443, type: vmess, uuid: 11111ad6-32cd-4bbb-9247-421878e0c7bd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us05.cctvvip.ml}, udp: true}
+  - {name: 美国06【CF优选YX】, server: yx.timeswath.uk, port: 443, type: vmess, uuid: 11111189-0502-48ab-f493-5e0f663a700c, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us06.cctvvip.ml}, udp: true}
+  - {name: 美国10【CF优选YX】, server: yx.timeswath.uk, port: 443, type: vmess, uuid: 113e8e7b-1b28-4d1a-c815-f9fb7faecf86, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: us10.cctvvip.ml}, udp: true}
+  - {name: 德国01【CF优选YX】, server: yx.timeswath.uk, port: 443, type: vmess, uuid: 13c7db38-b00f-49ca-bd9e-60f4f1f008cd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: de-01-5-2.cctvvip.ml}, udp: true}
+  - {name: 韩国02【CF优选YX】, server: yx.timeswath.uk, port: 443, type: vmess, uuid: 111405d4-2c75-4169-b52b-806812c45816, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: kr02.cctvvip.ml}, udp: true}
+  - {name: 韩国03【CF优选YX】, server: yx.timeswath.uk, port: 443, type: vmess, uuid: 1111621b-150c-4165-fd01-6c2c06147f11, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: kr03.cctvvip.ml}, udp: true}
+  - {name: 日本01【CF优选YX】, server: yx.timeswath.uk, port: 443, type: vmess, uuid: 11111c93-34b3-4fb9-8a92-b0224e72db4e, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp01.cctvvip.ml}, udp: true}
+  - {name: 日本02【CF优选YX】, server: yx.timeswath.uk, port: 443, type: vmess, uuid: 1111cfbd-71dc-42b0-84f2-53cd7fe5645b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp02.cctvvip.ml}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本02【电信优选】
-      - 日本01【电信优选】
-      - 日本06【电信优选】
+      - 泰国01【联通优选】
+      - 美国03【联通优选】
+      - 美国05【联通优选】
+      - 美国06【联通优选】
+      - 美国10【联通优选】
+      - 德国01【联通优选】
+      - 韩国02【联通优选】
+      - 韩国03【联通优选】
       - 日本01【联通优选】
       - 日本02【联通优选】
       - 日本06【联通优选】
-      - 韩国02【电信优选】
-      - 德国01【电信优选】
-      - 韩国03【联通优选】
-      - 日本03【直连】
-      - 韩国02【联通优选】
-      - 美国 V2CROSS.COM
-      - 韩国03【电信优选】
-      - 日本05【直连】
-      - 泰国01【联通优选】
       - 泰国01【电信优选】
-      - 瑞士 V2CROSS.COM
-      - 俄罗斯 V2CROSS.COM
-      - 美国05【联通优选】
-      - 英国【全局可用GPT】
-      - 美国03【联通优选】
-      - 美国10【联通优选】
-      - 美国05【电信优选】
-      - 美国10【电信优选】
       - 美国03【电信优选】
+      - 美国05【电信优选】
       - 美国06【电信优选】
+      - 美国10【电信优选】
+      - 德国01【电信优选】
+      - 韩国02【电信优选】
+      - 韩国03【电信优选】
+      - 日本01【电信优选】
+      - 日本02【电信优选】
+      - 日本06【电信优选】
+      - 泰国01【移动优选】
+      - 美国03【移动优选】
+      - 美国05【移动优选】
+      - 美国06【移动优选】
+      - 美国10【移动优选】
+      - 德国01【移动优选】
+      - 韩国02【移动优选】
+      - 韩国03【移动优选】
+      - 日本01【移动优选】
+      - 日本02【移动优选】
+      - 日本06【移动优选】
+      - 日本03【直连】
+      - 日本05【直连】
       - 美国07【直连】
+      - 英国【全局可用GPT】
+      - 泰国01【CF优选】
+      - 美国03【CF优选】
+      - 美国05【CF优选】
+      - 美国06【CF优选】
+      - 美国10【CF优选】
+      - 德国01【CF优选】
+      - 韩国02【CF优选】
+      - 韩国03【CF优选】
+      - 日本01【CF优选】
+      - 日本02【CF优选】
+      - 泰国01【CF优选YX】
+      - 美国03【CF优选YX】
+      - 美国05【CF优选YX】
+      - 美国06【CF优选YX】
+      - 美国10【CF优选YX】
+      - 德国01【CF优选YX】
+      - 韩国02【CF优选YX】
+      - 韩国03【CF优选YX】
+      - 日本01【CF优选YX】
+      - 日本02【CF优选YX】
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 日本02【电信优选】
-      - 日本01【电信优选】
-      - 日本06【电信优选】
+      - 泰国01【联通优选】
+      - 美国03【联通优选】
+      - 美国05【联通优选】
+      - 美国06【联通优选】
+      - 美国10【联通优选】
+      - 德国01【联通优选】
+      - 韩国02【联通优选】
+      - 韩国03【联通优选】
       - 日本01【联通优选】
       - 日本02【联通优选】
       - 日本06【联通优选】
-      - 韩国02【电信优选】
-      - 德国01【电信优选】
-      - 韩国03【联通优选】
-      - 日本03【直连】
-      - 韩国02【联通优选】
-      - 美国 V2CROSS.COM
-      - 韩国03【电信优选】
-      - 日本05【直连】
-      - 泰国01【联通优选】
       - 泰国01【电信优选】
-      - 瑞士 V2CROSS.COM
-      - 俄罗斯 V2CROSS.COM
-      - 美国05【联通优选】
-      - 英国【全局可用GPT】
-      - 美国03【联通优选】
-      - 美国10【联通优选】
-      - 美国05【电信优选】
-      - 美国10【电信优选】
       - 美国03【电信优选】
+      - 美国05【电信优选】
       - 美国06【电信优选】
+      - 美国10【电信优选】
+      - 德国01【电信优选】
+      - 韩国02【电信优选】
+      - 韩国03【电信优选】
+      - 日本01【电信优选】
+      - 日本02【电信优选】
+      - 日本06【电信优选】
+      - 泰国01【移动优选】
+      - 美国03【移动优选】
+      - 美国05【移动优选】
+      - 美国06【移动优选】
+      - 美国10【移动优选】
+      - 德国01【移动优选】
+      - 韩国02【移动优选】
+      - 韩国03【移动优选】
+      - 日本01【移动优选】
+      - 日本02【移动优选】
+      - 日本06【移动优选】
+      - 日本03【直连】
+      - 日本05【直连】
       - 美国07【直连】
+      - 英国【全局可用GPT】
+      - 泰国01【CF优选】
+      - 美国03【CF优选】
+      - 美国05【CF优选】
+      - 美国06【CF优选】
+      - 美国10【CF优选】
+      - 德国01【CF优选】
+      - 韩国02【CF优选】
+      - 韩国03【CF优选】
+      - 日本01【CF优选】
+      - 日本02【CF优选】
+      - 泰国01【CF优选YX】
+      - 美国03【CF优选YX】
+      - 美国05【CF优选YX】
+      - 美国06【CF优选YX】
+      - 美国10【CF优选YX】
+      - 德国01【CF优选YX】
+      - 韩国02【CF优选YX】
+      - 韩国03【CF优选YX】
+      - 日本01【CF优选YX】
+      - 日本02【CF优选YX】
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本02【电信优选】
-      - 日本01【电信优选】
-      - 日本06【电信优选】
+      - 泰国01【联通优选】
+      - 美国03【联通优选】
+      - 美国05【联通优选】
+      - 美国06【联通优选】
+      - 美国10【联通优选】
+      - 德国01【联通优选】
+      - 韩国02【联通优选】
+      - 韩国03【联通优选】
       - 日本01【联通优选】
       - 日本02【联通优选】
       - 日本06【联通优选】
-      - 韩国02【电信优选】
-      - 德国01【电信优选】
-      - 韩国03【联通优选】
-      - 日本03【直连】
-      - 韩国02【联通优选】
-      - 美国 V2CROSS.COM
-      - 韩国03【电信优选】
-      - 日本05【直连】
-      - 泰国01【联通优选】
       - 泰国01【电信优选】
-      - 瑞士 V2CROSS.COM
-      - 俄罗斯 V2CROSS.COM
-      - 美国05【联通优选】
-      - 英国【全局可用GPT】
-      - 美国03【联通优选】
-      - 美国10【联通优选】
-      - 美国05【电信优选】
-      - 美国10【电信优选】
       - 美国03【电信优选】
+      - 美国05【电信优选】
       - 美国06【电信优选】
+      - 美国10【电信优选】
+      - 德国01【电信优选】
+      - 韩国02【电信优选】
+      - 韩国03【电信优选】
+      - 日本01【电信优选】
+      - 日本02【电信优选】
+      - 日本06【电信优选】
+      - 泰国01【移动优选】
+      - 美国03【移动优选】
+      - 美国05【移动优选】
+      - 美国06【移动优选】
+      - 美国10【移动优选】
+      - 德国01【移动优选】
+      - 韩国02【移动优选】
+      - 韩国03【移动优选】
+      - 日本01【移动优选】
+      - 日本02【移动优选】
+      - 日本06【移动优选】
+      - 日本03【直连】
+      - 日本05【直连】
       - 美国07【直连】
+      - 英国【全局可用GPT】
+      - 泰国01【CF优选】
+      - 美国03【CF优选】
+      - 美国05【CF优选】
+      - 美国06【CF优选】
+      - 美国10【CF优选】
+      - 德国01【CF优选】
+      - 韩国02【CF优选】
+      - 韩国03【CF优选】
+      - 日本01【CF优选】
+      - 日本02【CF优选】
+      - 泰国01【CF优选YX】
+      - 美国03【CF优选YX】
+      - 美国05【CF优选YX】
+      - 美国06【CF优选YX】
+      - 美国10【CF优选YX】
+      - 德国01【CF优选YX】
+      - 韩国02【CF优选YX】
+      - 韩国03【CF优选YX】
+      - 日本01【CF优选YX】
+      - 日本02【CF优选YX】
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -148,33 +268,63 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本02【电信优选】
-      - 日本01【电信优选】
-      - 日本06【电信优选】
+      - 泰国01【联通优选】
+      - 美国03【联通优选】
+      - 美国05【联通优选】
+      - 美国06【联通优选】
+      - 美国10【联通优选】
+      - 德国01【联通优选】
+      - 韩国02【联通优选】
+      - 韩国03【联通优选】
       - 日本01【联通优选】
       - 日本02【联通优选】
       - 日本06【联通优选】
-      - 韩国02【电信优选】
-      - 德国01【电信优选】
-      - 韩国03【联通优选】
-      - 日本03【直连】
-      - 韩国02【联通优选】
-      - 美国 V2CROSS.COM
-      - 韩国03【电信优选】
-      - 日本05【直连】
-      - 泰国01【联通优选】
       - 泰国01【电信优选】
-      - 瑞士 V2CROSS.COM
-      - 俄罗斯 V2CROSS.COM
-      - 美国05【联通优选】
-      - 英国【全局可用GPT】
-      - 美国03【联通优选】
-      - 美国10【联通优选】
-      - 美国05【电信优选】
-      - 美国10【电信优选】
       - 美国03【电信优选】
+      - 美国05【电信优选】
       - 美国06【电信优选】
+      - 美国10【电信优选】
+      - 德国01【电信优选】
+      - 韩国02【电信优选】
+      - 韩国03【电信优选】
+      - 日本01【电信优选】
+      - 日本02【电信优选】
+      - 日本06【电信优选】
+      - 泰国01【移动优选】
+      - 美国03【移动优选】
+      - 美国05【移动优选】
+      - 美国06【移动优选】
+      - 美国10【移动优选】
+      - 德国01【移动优选】
+      - 韩国02【移动优选】
+      - 韩国03【移动优选】
+      - 日本01【移动优选】
+      - 日本02【移动优选】
+      - 日本06【移动优选】
+      - 日本03【直连】
+      - 日本05【直连】
       - 美国07【直连】
+      - 英国【全局可用GPT】
+      - 泰国01【CF优选】
+      - 美国03【CF优选】
+      - 美国05【CF优选】
+      - 美国06【CF优选】
+      - 美国10【CF优选】
+      - 德国01【CF优选】
+      - 韩国02【CF优选】
+      - 韩国03【CF优选】
+      - 日本01【CF优选】
+      - 日本02【CF优选】
+      - 泰国01【CF优选YX】
+      - 美国03【CF优选YX】
+      - 美国05【CF优选YX】
+      - 美国06【CF优选YX】
+      - 美国10【CF优选YX】
+      - 德国01【CF优选YX】
+      - 韩国02【CF优选YX】
+      - 韩国03【CF优选YX】
+      - 日本01【CF优选YX】
+      - 日本02【CF优选YX】
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -185,98 +335,188 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 日本02【电信优选】
-      - 日本01【电信优选】
-      - 日本06【电信优选】
+      - 泰国01【联通优选】
+      - 美国03【联通优选】
+      - 美国05【联通优选】
+      - 美国06【联通优选】
+      - 美国10【联通优选】
+      - 德国01【联通优选】
+      - 韩国02【联通优选】
+      - 韩国03【联通优选】
       - 日本01【联通优选】
       - 日本02【联通优选】
       - 日本06【联通优选】
-      - 韩国02【电信优选】
-      - 德国01【电信优选】
-      - 韩国03【联通优选】
-      - 日本03【直连】
-      - 韩国02【联通优选】
-      - 美国 V2CROSS.COM
-      - 韩国03【电信优选】
-      - 日本05【直连】
-      - 泰国01【联通优选】
       - 泰国01【电信优选】
-      - 瑞士 V2CROSS.COM
-      - 俄罗斯 V2CROSS.COM
-      - 美国05【联通优选】
-      - 英国【全局可用GPT】
-      - 美国03【联通优选】
-      - 美国10【联通优选】
-      - 美国05【电信优选】
-      - 美国10【电信优选】
       - 美国03【电信优选】
+      - 美国05【电信优选】
       - 美国06【电信优选】
+      - 美国10【电信优选】
+      - 德国01【电信优选】
+      - 韩国02【电信优选】
+      - 韩国03【电信优选】
+      - 日本01【电信优选】
+      - 日本02【电信优选】
+      - 日本06【电信优选】
+      - 泰国01【移动优选】
+      - 美国03【移动优选】
+      - 美国05【移动优选】
+      - 美国06【移动优选】
+      - 美国10【移动优选】
+      - 德国01【移动优选】
+      - 韩国02【移动优选】
+      - 韩国03【移动优选】
+      - 日本01【移动优选】
+      - 日本02【移动优选】
+      - 日本06【移动优选】
+      - 日本03【直连】
+      - 日本05【直连】
       - 美国07【直连】
+      - 英国【全局可用GPT】
+      - 泰国01【CF优选】
+      - 美国03【CF优选】
+      - 美国05【CF优选】
+      - 美国06【CF优选】
+      - 美国10【CF优选】
+      - 德国01【CF优选】
+      - 韩国02【CF优选】
+      - 韩国03【CF优选】
+      - 日本01【CF优选】
+      - 日本02【CF优选】
+      - 泰国01【CF优选YX】
+      - 美国03【CF优选YX】
+      - 美国05【CF优选YX】
+      - 美国06【CF优选YX】
+      - 美国10【CF优选YX】
+      - 德国01【CF优选YX】
+      - 韩国02【CF优选YX】
+      - 韩国03【CF优选YX】
+      - 日本01【CF优选YX】
+      - 日本02【CF优选YX】
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 日本02【电信优选】
-      - 日本01【电信优选】
-      - 日本06【电信优选】
+      - 泰国01【联通优选】
+      - 美国03【联通优选】
+      - 美国05【联通优选】
+      - 美国06【联通优选】
+      - 美国10【联通优选】
+      - 德国01【联通优选】
+      - 韩国02【联通优选】
+      - 韩国03【联通优选】
       - 日本01【联通优选】
       - 日本02【联通优选】
       - 日本06【联通优选】
-      - 韩国02【电信优选】
-      - 德国01【电信优选】
-      - 韩国03【联通优选】
-      - 日本03【直连】
-      - 韩国02【联通优选】
-      - 美国 V2CROSS.COM
-      - 韩国03【电信优选】
-      - 日本05【直连】
-      - 泰国01【联通优选】
       - 泰国01【电信优选】
-      - 瑞士 V2CROSS.COM
-      - 俄罗斯 V2CROSS.COM
-      - 美国05【联通优选】
-      - 英国【全局可用GPT】
-      - 美国03【联通优选】
-      - 美国10【联通优选】
-      - 美国05【电信优选】
-      - 美国10【电信优选】
       - 美国03【电信优选】
+      - 美国05【电信优选】
       - 美国06【电信优选】
+      - 美国10【电信优选】
+      - 德国01【电信优选】
+      - 韩国02【电信优选】
+      - 韩国03【电信优选】
+      - 日本01【电信优选】
+      - 日本02【电信优选】
+      - 日本06【电信优选】
+      - 泰国01【移动优选】
+      - 美国03【移动优选】
+      - 美国05【移动优选】
+      - 美国06【移动优选】
+      - 美国10【移动优选】
+      - 德国01【移动优选】
+      - 韩国02【移动优选】
+      - 韩国03【移动优选】
+      - 日本01【移动优选】
+      - 日本02【移动优选】
+      - 日本06【移动优选】
+      - 日本03【直连】
+      - 日本05【直连】
       - 美国07【直连】
+      - 英国【全局可用GPT】
+      - 泰国01【CF优选】
+      - 美国03【CF优选】
+      - 美国05【CF优选】
+      - 美国06【CF优选】
+      - 美国10【CF优选】
+      - 德国01【CF优选】
+      - 韩国02【CF优选】
+      - 韩国03【CF优选】
+      - 日本01【CF优选】
+      - 日本02【CF优选】
+      - 泰国01【CF优选YX】
+      - 美国03【CF优选YX】
+      - 美国05【CF优选YX】
+      - 美国06【CF优选YX】
+      - 美国10【CF优选YX】
+      - 德国01【CF优选YX】
+      - 韩国02【CF优选YX】
+      - 韩国03【CF优选YX】
+      - 日本01【CF优选YX】
+      - 日本02【CF优选YX】
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 日本02【电信优选】
-      - 日本01【电信优选】
-      - 日本06【电信优选】
+      - 泰国01【联通优选】
+      - 美国03【联通优选】
+      - 美国05【联通优选】
+      - 美国06【联通优选】
+      - 美国10【联通优选】
+      - 德国01【联通优选】
+      - 韩国02【联通优选】
+      - 韩国03【联通优选】
       - 日本01【联通优选】
       - 日本02【联通优选】
       - 日本06【联通优选】
-      - 韩国02【电信优选】
-      - 德国01【电信优选】
-      - 韩国03【联通优选】
-      - 日本03【直连】
-      - 韩国02【联通优选】
-      - 美国 V2CROSS.COM
-      - 韩国03【电信优选】
-      - 日本05【直连】
-      - 泰国01【联通优选】
       - 泰国01【电信优选】
-      - 瑞士 V2CROSS.COM
-      - 俄罗斯 V2CROSS.COM
-      - 美国05【联通优选】
-      - 英国【全局可用GPT】
-      - 美国03【联通优选】
-      - 美国10【联通优选】
-      - 美国05【电信优选】
-      - 美国10【电信优选】
       - 美国03【电信优选】
+      - 美国05【电信优选】
       - 美国06【电信优选】
+      - 美国10【电信优选】
+      - 德国01【电信优选】
+      - 韩国02【电信优选】
+      - 韩国03【电信优选】
+      - 日本01【电信优选】
+      - 日本02【电信优选】
+      - 日本06【电信优选】
+      - 泰国01【移动优选】
+      - 美国03【移动优选】
+      - 美国05【移动优选】
+      - 美国06【移动优选】
+      - 美国10【移动优选】
+      - 德国01【移动优选】
+      - 韩国02【移动优选】
+      - 韩国03【移动优选】
+      - 日本01【移动优选】
+      - 日本02【移动优选】
+      - 日本06【移动优选】
+      - 日本03【直连】
+      - 日本05【直连】
       - 美国07【直连】
+      - 英国【全局可用GPT】
+      - 泰国01【CF优选】
+      - 美国03【CF优选】
+      - 美国05【CF优选】
+      - 美国06【CF优选】
+      - 美国10【CF优选】
+      - 德国01【CF优选】
+      - 韩国02【CF优选】
+      - 韩国03【CF优选】
+      - 日本01【CF优选】
+      - 日本02【CF优选】
+      - 泰国01【CF优选YX】
+      - 美国03【CF优选YX】
+      - 美国05【CF优选YX】
+      - 美国06【CF优选YX】
+      - 美国10【CF优选YX】
+      - 德国01【CF优选YX】
+      - 韩国02【CF优选YX】
+      - 韩国03【CF优选YX】
+      - 日本01【CF优选YX】
+      - 日本02【CF优选YX】
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -292,33 +532,63 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 日本02【电信优选】
-      - 日本01【电信优选】
-      - 日本06【电信优选】
+      - 泰国01【联通优选】
+      - 美国03【联通优选】
+      - 美国05【联通优选】
+      - 美国06【联通优选】
+      - 美国10【联通优选】
+      - 德国01【联通优选】
+      - 韩国02【联通优选】
+      - 韩国03【联通优选】
       - 日本01【联通优选】
       - 日本02【联通优选】
       - 日本06【联通优选】
-      - 韩国02【电信优选】
-      - 德国01【电信优选】
-      - 韩国03【联通优选】
-      - 日本03【直连】
-      - 韩国02【联通优选】
-      - 美国 V2CROSS.COM
-      - 韩国03【电信优选】
-      - 日本05【直连】
-      - 泰国01【联通优选】
       - 泰国01【电信优选】
-      - 瑞士 V2CROSS.COM
-      - 俄罗斯 V2CROSS.COM
-      - 美国05【联通优选】
-      - 英国【全局可用GPT】
-      - 美国03【联通优选】
-      - 美国10【联通优选】
-      - 美国05【电信优选】
-      - 美国10【电信优选】
       - 美国03【电信优选】
+      - 美国05【电信优选】
       - 美国06【电信优选】
+      - 美国10【电信优选】
+      - 德国01【电信优选】
+      - 韩国02【电信优选】
+      - 韩国03【电信优选】
+      - 日本01【电信优选】
+      - 日本02【电信优选】
+      - 日本06【电信优选】
+      - 泰国01【移动优选】
+      - 美国03【移动优选】
+      - 美国05【移动优选】
+      - 美国06【移动优选】
+      - 美国10【移动优选】
+      - 德国01【移动优选】
+      - 韩国02【移动优选】
+      - 韩国03【移动优选】
+      - 日本01【移动优选】
+      - 日本02【移动优选】
+      - 日本06【移动优选】
+      - 日本03【直连】
+      - 日本05【直连】
       - 美国07【直连】
+      - 英国【全局可用GPT】
+      - 泰国01【CF优选】
+      - 美国03【CF优选】
+      - 美国05【CF优选】
+      - 美国06【CF优选】
+      - 美国10【CF优选】
+      - 德国01【CF优选】
+      - 韩国02【CF优选】
+      - 韩国03【CF优选】
+      - 日本01【CF优选】
+      - 日本02【CF优选】
+      - 泰国01【CF优选YX】
+      - 美国03【CF优选YX】
+      - 美国05【CF优选YX】
+      - 美国06【CF优选YX】
+      - 美国10【CF优选YX】
+      - 德国01【CF优选YX】
+      - 韩国02【CF优选YX】
+      - 韩国03【CF优选YX】
+      - 日本01【CF优选YX】
+      - 日本02【CF优选YX】
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
