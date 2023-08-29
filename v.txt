@@ -1,3 +1,4 @@
 vless://fa005493-5f34-4c3b-f74f-63475071c3f3@second.baoshi750105.top:443?encryption=none&security=tls&sni=second.baoshi750105.top&type=ws&path=%2fcaoyu1932#hostus
-vless://bb2e69eb-016f-48a4-df38-a15859ef5d99@first.baoshi750105.top:443?encryption=none&security=tls&sni=first.baoshi750105.top&type=ws&path=%2fcaoyu1932#%e4%b8%bb%e7%94%a8-vless
+vless://6b6e8e2a-95bf-456c-cf23-398f1da7cc17@first.baoshi750105.top:443?encryption=none&security=tls&sni=first.baoshi750105.top&type=ws&path=%2Fcaoyu1932#vlessmain
+
 
