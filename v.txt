@@ -1,4 +1,16 @@
 vless://fa005493-5f34-4c3b-f74f-63475071c3f3@second.baoshi750105.top:443?encryption=none&security=tls&sni=second.baoshi750105.top&type=ws&path=%2fcaoyu1932#hostus
-vless://6b6e8e2a-95bf-456c-cf23-398f1da7cc17@first.baoshi750105.top:443?encryption=none&security=tls&sni=first.baoshi750105.top&type=ws&path=%2Fcaoyu1932#vlessmain
+vless://600a4122-66e2-4b6d-be10-97028fa98bb5@1.baoshi750105.top:443?encryption=none&security=tls&sni=first.baoshi750105.top&type=ws&host=first.baoshi750105.top&path=%2Fcaoyu1932#vlessmain
+vless://600a4122-66e2-4b6d-be10-97028fa98bb5@2.baoshi750105.top:443?encryption=none&security=tls&sni=first.baoshi750105.top&type=ws&host=first.baoshi750105.top&path=%2Fcaoyu1932#vlessmain
+vless://600a4122-66e2-4b6d-be10-97028fa98bb5@3.baoshi750105.top:443?encryption=none&security=tls&sni=first.baoshi750105.top&type=ws&host=first.baoshi750105.top&path=%2Fcaoyu1932#vlessmain
+vless://600a4122-66e2-4b6d-be10-97028fa98bb5@4.baoshi750105.top:443?encryption=none&security=tls&sni=first.baoshi750105.top&type=ws&host=first.baoshi750105.top&path=%2Fcaoyu1932#vlessmain
+vless://600a4122-66e2-4b6d-be10-97028fa98bb5@5.baoshi750105.top:443?encryption=none&security=tls&sni=first.baoshi750105.top&type=ws&host=first.baoshi750105.top&path=%2Fcaoyu1932#vlessmain
+vless://600a4122-66e2-4b6d-be10-97028fa98bb5@6.baoshi750105.top:443?encryption=none&security=tls&sni=first.baoshi750105.top&type=ws&host=first.baoshi750105.top&path=%2Fcaoyu1932#vlessmain
+vless://600a4122-66e2-4b6d-be10-97028fa98bb5@7.baoshi750105.top:443?encryption=none&security=tls&sni=first.baoshi750105.top&type=ws&host=first.baoshi750105.top&path=%2Fcaoyu1932#vlessmain
+vless://600a4122-66e2-4b6d-be10-97028fa98bb5@8.baoshi750105.top:443?encryption=none&security=tls&sni=first.baoshi750105.top&type=ws&host=first.baoshi750105.top&path=%2Fcaoyu1932#vlessmain
+vless://600a4122-66e2-4b6d-be10-97028fa98bb5@9.baoshi750105.top:443?encryption=none&security=tls&sni=first.baoshi750105.top&type=ws&host=first.baoshi750105.top&path=%2Fcaoyu1932#vlessmain
+vless://600a4122-66e2-4b6d-be10-97028fa98bb5@10.baoshi750105.top:443?encryption=none&security=tls&sni=first.baoshi750105.top&type=ws&host=first.baoshi750105.top&path=%2Fcaoyu1932#vlessmain
+
+
+
 
 
