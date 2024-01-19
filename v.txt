@@ -19,3 +19,4 @@ vless://a0b9c38d-b73f-4809-be95-0782777afe08@8.baoshi750105.top:443?host=cf1.bao
 vless://a0b9c38d-b73f-4809-be95-0782777afe08@9.baoshi750105.top:443?host=cf1.baoshi750105.top&path=%2F%3Fed%3D2048&type=ws&encryption=none&security=tls&sni=cf1.baoshi750105.top#fdwk4
 vless://a0b9c38d-b73f-4809-be95-0782777afe08@10.baoshi750105.top:443?host=cf1.baoshi750105.top&path=%2F%3Fed%3D2048&type=ws&encryption=none&security=tls&sni=cf1.baoshi750105.top#fdwk5
 vless://fa005493-5f34-4c3b-f74f-63475071c3f3@second.baoshi750105.top:443?host=second.baoshi750105.top&path=%2Fcaoyu1932&type=ws&encryption=none&security=tls&sni=second.baoshi750105.top#hostus
+vless://b67d02cf-9ca0-4141-b657-cfc4bbba3ee9@1.baoshi750105.top:443?encryption=none&security=tls&sni=cf2.baoshi750105.top&type=ws&host=cf2.baoshi750105.top&path=%2F%3Fed%3D2048#yxwk2-1
