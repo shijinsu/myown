@@ -24,16 +24,16 @@ vless://b67d02cf-9ca0-4141-b657-cfc4bbba3ee9@2.baoshi750105.top:443?encryption=n
 vless://b67d02cf-9ca0-4141-b657-cfc4bbba3ee9@3.baoshi750105.top:443?encryption=none&security=tls&sni=cf2.baoshi750105.top&type=ws&host=cf2.baoshi750105.top&path=%2F%3Fed%3D2048#yx3wk2
 vless://b67d02cf-9ca0-4141-b657-cfc4bbba3ee9@4.baoshi750105.top:443?encryption=none&security=tls&sni=cf2.baoshi750105.top&type=ws&host=cf2.baoshi750105.top&path=%2F%3Fed%3D2048#yx4wk2
 vless://b67d02cf-9ca0-4141-b657-cfc4bbba3ee9@5.baoshi750105.top:443?encryption=none&security=tls&sni=cf2.baoshi750105.top&type=ws&host=cf2.baoshi750105.top&path=%2F%3Fed%3D2048#yx5wk2
-vless://d586ec4c-52f5-497a-e184-c537c5932ed0@1.baoshi750105.top:443?encryption=none&security=tls&sni=dcivps.baoshi750105.top&type=ws&host=kr1.baoshi750105.top&path=%2F%3F2048#yx1kr
-vless://d586ec4c-52f5-497a-e184-c537c5932ed0@2.baoshi750105.top:443?encryption=none&security=tls&sni=dcivps.baoshi750105.top&type=ws&host=kr1.baoshi750105.top&path=%2F%3F2048#yx2kr
-vless://d586ec4c-52f5-497a-e184-c537c5932ed0@3.baoshi750105.top:443?encryption=none&security=tls&sni=dcivps.baoshi750105.top&type=ws&host=kr1.baoshi750105.top&path=%2F%3F2048#yx3kr
-vless://d586ec4c-52f5-497a-e184-c537c5932ed0@4.baoshi750105.top:443?encryption=none&security=tls&sni=dcivps.baoshi750105.top&type=ws&host=kr1.baoshi750105.top&path=%2F%3F2048#yx4kr
-vless://d586ec4c-52f5-497a-e184-c537c5932ed0@5.baoshi750105.top:443?encryption=none&security=tls&sni=dcivps.baoshi750105.top&type=ws&host=kr1.baoshi750105.top&path=%2F%3F2048#yx5kr
-vless://d586ec4c-52f5-497a-e184-c537c5932ed0@6.baoshi750105.top:443?encryption=none&security=tls&sni=dcivps.baoshi750105.top&type=ws&host=kr1.baoshi750105.top&path=%2F%3F2048#fd1kr
-vless://d586ec4c-52f5-497a-e184-c537c5932ed0@7.baoshi750105.top:443?encryption=none&security=tls&sni=dcivps.baoshi750105.top&type=ws&host=kr1.baoshi750105.top&path=%2F%3F2048#fd2kr
-vless://d586ec4c-52f5-497a-e184-c537c5932ed0@8.baoshi750105.top:443?encryption=none&security=tls&sni=dcivps.baoshi750105.top&type=ws&host=kr1.baoshi750105.top&path=%2F%3F2048#fd3kr
-vless://d586ec4c-52f5-497a-e184-c537c5932ed0@9.baoshi750105.top:443?encryption=none&security=tls&sni=dcivps.baoshi750105.top&type=ws&host=kr1.baoshi750105.top&path=%2F%3F2048#fd4kr
-vless://d586ec4c-52f5-497a-e184-c537c5932ed0@10.baoshi750105.top:443?encryption=none&security=tls&sni=dcivps.baoshi750105.top&type=ws&host=kr1.baoshi750105.top&path=%2F%3F2048#fd5kr
+vless://d586ec4c-52f5-497a-e184-c537c5932ed0@1.baoshi750105.top:443?encryption=none&security=tls&sni=kr1.baoshi750105.top&type=ws&host=kr1.baoshi750105.top&path=%2Fcaoyu1932#yx1kr
+vless://d586ec4c-52f5-497a-e184-c537c5932ed0@2.baoshi750105.top:443?encryption=none&security=tls&sni=kr1.baoshi750105.top&type=ws&host=kr1.baoshi750105.top&path=%2Fcaoyu1932#yx2kr
+vless://d586ec4c-52f5-497a-e184-c537c5932ed0@3.baoshi750105.top:443?encryption=none&security=tls&sni=kr1.baoshi750105.top&type=ws&host=kr1.baoshi750105.top&path=%2Fcaoyu1932#yx3kr
+vless://d586ec4c-52f5-497a-e184-c537c5932ed0@4.baoshi750105.top:443?encryption=none&security=tls&sni=kr1.baoshi750105.top&type=ws&host=kr1.baoshi750105.top&path=%2Fcaoyu1932#yx4kr
+vless://d586ec4c-52f5-497a-e184-c537c5932ed0@5.baoshi750105.top:443?encryption=none&security=tls&sni=kr1.baoshi750105.top&type=ws&host=kr1.baoshi750105.top&path=%2Fcaoyu1932#yx5kr
+vless://d586ec4c-52f5-497a-e184-c537c5932ed0@6.baoshi750105.top:443?encryption=none&security=tls&sni=kr1.baoshi750105.top&type=ws&host=kr1.baoshi750105.top&path=%2Fcaoyu1932#fd1kr
+vless://d586ec4c-52f5-497a-e184-c537c5932ed0@7.baoshi750105.top:443?encryption=none&security=tls&sni=kr1.baoshi750105.top&type=ws&host=kr1.baoshi750105.top&path=%2Fcaoyu1932#fd2kr
+vless://d586ec4c-52f5-497a-e184-c537c5932ed0@8.baoshi750105.top:443?encryption=none&security=tls&sni=kr1.baoshi750105.top&type=ws&host=kr1.baoshi750105.top&path=%2Fcaoyu1932#fd3kr
+vless://d586ec4c-52f5-497a-e184-c537c5932ed0@9.baoshi750105.top:443?encryption=none&security=tls&sni=dkr1.baoshi750105.top&type=ws&host=kr1.baoshi750105.top&path=%2Fcaoyu1932#fd4kr
+vless://d586ec4c-52f5-497a-e184-c537c5932ed0@10.baoshi750105.top:443?encryption=none&security=tls&sni=kr1.baoshi750105.top&type=ws&host=kr1.baoshi750105.top&path=%2Fcaoyu1932#fd5kr
 vless://998a498e-5bab-4109-bca8-17e454acce41@1.baoshi750105.top:443?encryption=none&security=tls&sni=tk1.baoshi750105.top&type=ws&host=tk1.baoshi750105.top&path=%2Fcaoyu1932#yx1tk
 vless://998a498e-5bab-4109-bca8-17e454acce41@2.baoshi750105.top:443?encryption=none&security=tls&sni=tk1.baoshi750105.top&type=ws&host=tk1.baoshi750105.top&path=%2Fcaoyu1932#yx2tk
 vless://998a498e-5bab-4109-bca8-17e454acce41@3.baoshi750105.top:443?encryption=none&security=tls&sni=tk1.baoshi750105.top&type=ws&host=tk1.baoshi750105.top&path=%2Fcaoyu1932#yx3tk
@@ -54,7 +54,6 @@ vless://2d9938c5-1edb-4308-a998-cb7ada75861f@7.baoshi750105.top:443?encryption=n
 vless://2d9938c5-1edb-4308-a998-cb7ada75861f@8.baoshi750105.top:443?encryption=none&security=tls&sni=pn1.baoshi750105.top&type=ws&host=pn1.baoshi750105.top&path=%2Fcaoyu1932#fd3pn
 vless://2d9938c5-1edb-4308-a998-cb7ada75861f@9.baoshi750105.top:443?encryption=none&security=tls&sni=pn1.baoshi750105.top&type=ws&host=pn1.baoshi750105.top&path=%2Fcaoyu1932#fd4pn
 vless://2d9938c5-1edb-4308-a998-cb7ada75861f@10.baoshi750105.top:443?encryption=none&security=tls&sni=pn1.baoshi750105.top&type=ws&host=pn1.baoshi750105.top&path=%2Fcaoyu1932#fd5pn
-
 
 
 
